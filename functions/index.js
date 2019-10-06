@@ -23,6 +23,7 @@ let firestore = admin.firestore();
 let limit = 20;
 // let pageLimit = 10;
 exports.blog = builderFunction.onRequest(async (request, response) => {
+    var data = {};
     const result = [];
     const blogCollection = firestore.collection('blog');
 
@@ -49,7 +50,7 @@ exports.blog = builderFunction.onRequest(async (request, response) => {
                 return response.status(404).send();
             }
             
-            snapshot.forEach(doc => {     
+            snapshot.forEach(doc => {   
                 var blogElement = {};
                 var blog = doc.data();
                 console.log(blog);  
@@ -63,13 +64,18 @@ exports.blog = builderFunction.onRequest(async (request, response) => {
                 if (isGetBlogContent) {
                     blogElement.published = blog.published;
                     blogElement.content = blog.content;
+                    data = blogElement;
                 } else {
                     blogElement.shortDescription = blog.shortDescription;
+                    result.push(blogElement);
                 }
-                result.push(blogElement);
             });
-            response.contentType('application/json');    
-            response.send(result);
+
+            response.contentType('application/json');   
+            if (!isGetBlogContent) {
+                data.items = result;
+            }
+            response.send(data);
 
             //paging for lazy load
             // let last = snapshot.docs[snapshot.docs.length - 1];
@@ -84,7 +90,8 @@ exports.blog = builderFunction.onRequest(async (request, response) => {
         });
 });
 
-exports.actvity = builderFunction.onRequest(async (request, response) => {
+exports.activity = builderFunction.onRequest(async (request, response) => {
+    var data = {};
     const result = [];
 
     firestore.collection('activity').orderBy("published", "desc").limit(limit).get()
@@ -98,8 +105,9 @@ exports.actvity = builderFunction.onRequest(async (request, response) => {
                 console.log(doc.data());
                 result.push(doc.data());
             });
-            response.contentType('application/json');    
-            response.send(result);
+            data.items = result;
+            response.contentType('application/json');
+            response.send(data);
         })    
         .catch((err) => {        
             console.log('Error getting documents', err);
