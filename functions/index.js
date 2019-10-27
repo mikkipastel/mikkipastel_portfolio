@@ -7,6 +7,8 @@ const builderFunction = functions.region('asia-east2').https;
 const admin = require('firebase-admin');
 admin.initializeApp(functions.config().firebase);
 
+const cors = require('cors')({origin: true});
+
 let rtdb = admin.database();
 exports.musiclist = builderFunction.onRequest(async (request, response) => {
   if (request.method == 'GET') {
@@ -21,73 +23,90 @@ exports.musiclist = builderFunction.onRequest(async (request, response) => {
 //TODO: Billing account not configured. External network is not accessible and quotas are severely limited.
 let firestore = admin.firestore();
 let limit = 20;
-// let pageLimit = 10;
 exports.blog = builderFunction.onRequest(async (request, response) => {
-    var data = {};
-    const result = [];
-    const blogCollection = firestore.collection('blog');
+    cors(request, response, () => {
+        var data = {};
+        const result = [];
+        const blogCollection = firestore.collection('blog');
 
-    let query;
-    let isGetBlogContent = false;
-    if (request.query.id != null) {
-        query = blogCollection.where("id", "==", request.query.id)
-        isGetBlogContent = true;
-        //query = blogCollection.doc(request.query.id)
-    } else if (request.query.tag != null) {
-        query = blogCollection.where("label", "array-contains", request.query.tag).orderBy("published", "desc").limit(limit);
-    } else if (request.query.q != null) {
-        query = blogCollection.where("content", ">", request.query.q).where("content", "<", request.query.q).limit(limit);
-    // } else if (request.query.page != null) {
-    //     query = query.startAfter(lastId);
-    } else {
-        query = blogCollection.orderBy("published", "desc").limit(limit);
-    }
+        let lastPublished;
+        let query;
+        if (request.query.tag && request.query.tag != "all") {
+            query = blogCollection.where("label", "array-contains", request.query.tag).orderBy("published", "desc");
+        } else {
+            query = blogCollection.orderBy("published", "desc");
+        }
 
-    query.get()
-        .then(snapshot => {
+        if (request.query.published) {
+            query = query.startAfter(request.query.published)
+        }
+
+        query.limit(limit).get().then(snapshot => {
             if (snapshot.empty) {
                 console.log('No matching documents.');
                 return response.status(404).send();
             }
-            
+                
             snapshot.forEach(doc => {   
                 var blogElement = {};
                 var blog = doc.data();
                 console.log(blog);  
-
+                    
                 blogElement.id = blog.id;
                 blogElement.url = blog.url;
                 blogElement.title = blog.title;
                 blogElement.label = blog.label;
                 blogElement.coverUrl = blog.coverUrl;
-
-                if (isGetBlogContent) {
-                    blogElement.published = blog.published;
-                    blogElement.content = blog.content;
-                    data = blogElement;
-                } else {
-                    blogElement.shortDescription = blog.shortDescription;
-                    result.push(blogElement);
-                }
+                blogElement.shortDescription = blog.shortDescription;
+                result.push(blogElement);
+                lastPublished = blog.published;
             });
 
             response.contentType('application/json');   
-            if (!isGetBlogContent) {
-                data.items = result;
-            }
+            data.items = result;
+            data.lastPublished = lastPublished;
             response.send(data);
-
-            //paging for lazy load
-            // let last = snapshot.docs[snapshot.docs.length - 1];
-            // let next = query.startAfter(last.data().id).limit(pageLimit);
-            // next.get().then((snapshot) => {
-            //     console.log('Num results:', snapshot.docs.length);
-            //     console.log(snapshot.docs);
-            // });
         })    
         .catch((err) => {        
             console.log('Error getting documents', err);
         });
+    })
+});
+
+exports.content = builderFunction.onRequest(async (request, response) => {
+    cors(request, response, () => {
+        var data = {};
+        const result = [];
+
+        firestore.collection('blog').where("id", "==", request.query.id).get().then(snapshot => {
+            if (snapshot.empty) {
+                console.log('No matching documents.');
+                return response.status(404).send();
+            }
+                
+            snapshot.forEach(doc => {   
+                var blogElement = {};
+                var blog = doc.data();
+                console.log(blog);  
+                    
+                blogElement.id = blog.id;
+                blogElement.url = blog.url;
+                blogElement.title = blog.title;
+                blogElement.label = blog.label;
+                blogElement.coverUrl = blog.coverUrl;
+                blogElement.published = blog.published;
+                blogElement.content = blog.content;
+                result.push(blogElement);
+            });
+
+            response.contentType('application/json');
+            data.data = result;
+            response.send(data);
+        })    
+        .catch((err) => {        
+            console.log('Error getting documents', err);
+        });
+    })
 });
 
 exports.activity = builderFunction.onRequest(async (request, response) => {
