@@ -76,7 +76,7 @@ exports.blog = builderFunction.onRequest(async (request, response) => {
 exports.content = builderFunction.onRequest(async (request, response) => {
     cors(request, response, () => {
         var data = {};
-        const result = [];
+        var blogElement = {};
 
         firestore.collection('blog').where("id", "==", request.query.id).get().then(snapshot => {
             if (snapshot.empty) {
@@ -85,7 +85,6 @@ exports.content = builderFunction.onRequest(async (request, response) => {
             }
                 
             snapshot.forEach(doc => {   
-                var blogElement = {};
                 var blog = doc.data();
                 console.log(blog);  
                     
@@ -96,11 +95,10 @@ exports.content = builderFunction.onRequest(async (request, response) => {
                 blogElement.coverUrl = blog.coverUrl;
                 blogElement.published = blog.published;
                 blogElement.content = blog.content;
-                result.push(blogElement);
             });
 
             response.contentType('application/json');
-            data.data = result;
+            data.data = blogElement;
             response.send(data);
         })    
         .catch((err) => {        
