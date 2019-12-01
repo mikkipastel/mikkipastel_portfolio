@@ -9,7 +9,7 @@ admin.initializeApp(functions.config().firebase);
 
 const cors = require('cors')({origin: true});
 
-let rtdb = admin.database();
+const rtdb = admin.database();
 exports.musiclist = builderFunction.onRequest(async (request, response) => {
   if (request.method == 'GET') {
      var ref = rtdb.ref("music");
@@ -21,7 +21,7 @@ exports.musiclist = builderFunction.onRequest(async (request, response) => {
 });
 
 //TODO: Billing account not configured. External network is not accessible and quotas are severely limited.
-let firestore = admin.firestore();
+const firestore = admin.firestore();
 let limit = 20;
 exports.blog = builderFunction.onRequest(async (request, response) => {
     cors(request, response, () => {
@@ -44,7 +44,7 @@ exports.blog = builderFunction.onRequest(async (request, response) => {
         query.limit(limit).get().then(snapshot => {
             if (snapshot.empty) {
                 console.log('No matching documents.');
-                return response.status(404).send();
+                return response.status(404).send('No matching documents.');
             }
                 
             snapshot.forEach(doc => {   
