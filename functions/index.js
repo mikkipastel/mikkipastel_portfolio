@@ -128,7 +128,6 @@ appBlog.get('/id/:id', function (request, response) {
     var data = {};
     var blogElement = {};
 
-    console.log(request.params.id);
     firestore.collection('blog').where("id", "==", request.params.id).get().then(snapshot => {
         if (snapshot.empty) {
             console.log('No matching documents.');
@@ -160,7 +159,8 @@ appBlog.get('/id/:id', function (request, response) {
 })
 exports.blog = builderFunction.onRequest(appBlog);
 
-exports.activity = builderFunction.onRequest(async (request, response) => {
+const appPortfolio = express();
+appPortfolio.get('/activites', function (request, response) {
     var data = {};
     const result = [];
 
@@ -183,4 +183,80 @@ exports.activity = builderFunction.onRequest(async (request, response) => {
         .catch((err) => {        
             console.log('Error getting documents', err);
         })
-});
+})
+
+appPortfolio.get('/android-apps', function (request, response) {
+    var data = {};
+    const result = [];
+
+    firestore.collection('portfolioAndroidApp').orderBy("published", "desc").limit(limit).get()
+        .then(snapshot => {
+            if (snapshot.empty) {
+                console.log('No matching documents.');
+                return response.status(404).send();
+            }
+            
+            snapshot.forEach(doc => {    
+                console.log(doc.data());
+                result.push(doc.data());
+            });
+            data.items = result;
+            response.contentType('application/json');
+            response.send(data);
+            return response;
+        })    
+        .catch((err) => {        
+            console.log('Error getting documents', err);
+        })
+})
+
+appPortfolio.get('/android-projects', function (request, response) {
+    var data = {};
+    const result = [];
+
+    firestore.collection('portfolioAndroidProject').orderBy("published", "desc").limit(limit).get()
+        .then(snapshot => {
+            if (snapshot.empty) {
+                console.log('No matching documents.');
+                return response.status(404).send();
+            }
+            
+            snapshot.forEach(doc => {    
+                console.log(doc.data());
+                result.push(doc.data());
+            });
+            data.items = result;
+            response.contentType('application/json');
+            response.send(data);
+            return response;
+        })    
+        .catch((err) => {        
+            console.log('Error getting documents', err);
+        })
+})
+
+appPortfolio.get('/web-apps', function (request, response) {
+    var data = {};
+    const result = [];
+
+    firestore.collection('portfolioWebApp').orderBy("published", "desc").limit(limit).get()
+        .then(snapshot => {
+            if (snapshot.empty) {
+                console.log('No matching documents.');
+                return response.status(404).send();
+            }
+            
+            snapshot.forEach(doc => {    
+                console.log(doc.data());
+                result.push(doc.data());
+            });
+            data.items = result;
+            response.contentType('application/json');
+            response.send(data);
+            return response;
+        })    
+        .catch((err) => {        
+            console.log('Error getting documents', err);
+        })
+})
+exports.portfolio = builderFunction.onRequest(appPortfolio);
