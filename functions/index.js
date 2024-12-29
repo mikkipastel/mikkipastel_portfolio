@@ -29,6 +29,8 @@ const firestore = getFirestore();
 let limit = 20;
 
 const appPortfolio = express();
+const cors = require("cors");
+appPortfolio.use(cors());
 
 // Portfolio:: activity
 appPortfolio.get('/activites', function (request, response) {
