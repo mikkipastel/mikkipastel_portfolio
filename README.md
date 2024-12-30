@@ -13,3 +13,11 @@ https://mikkipastel.firebaseapp.com
 - loongsukhum
 - BearEatEverything
 - about me
+
+## Deploy
+
+### Firebase Cloud Function
+```
+cd functions
+npm run deploy
+```
