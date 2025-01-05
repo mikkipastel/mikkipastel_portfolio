@@ -1,23 +1,47 @@
-# MikkiPastel_website
-[![Build Status](https://travis-ci.org/mikkipastel/MikkiPastel_website.svg?branch=master)](https://travis-ci.org/mikkipastel/MikkiPastel_website)
+# MikkiPastel Portfolio Website
 
 This is my portfolio website
-https://mikkipastel.firebaseapp.com
+https://portfolio.mikkipastel.com
 
 ### Made by :
-- build all by Bootstrap which responsive design
+- HTML + CSS + JavaScript
+- Firebase Hosting
+- static website with call dynamic data from API with Ghost CMS and Firebase Cloud Function
 - PWA support
+- LOVE pixel art
 
 ### What's content in my portfolio website?
-- my old android application project such as BKroute, HealthMe, MyMotion
-- loongsukhum
-- BearEatEverything
-- about me
+- About me
+- Lasted Blog
+- Publish Application
+- Android Project (Archive)
+- Web Application / Chatbot
+- Experience Timeline
+- Work Experience
 
 ## Deploy
+
+- install all library
+```
+npm install
+```
+
+- install Firebase CIL
+```
+npm install -g firebase-tools
+```
 
 ### Firebase Cloud Function
 ```
 cd functions
 npm run deploy
+```
+
+### Firebase Hosting
+```
+cd public
+// preview
+firebase hosting:channel:deploy CHANNEL_ID
+// public deploy
+firebase deploy --only hosting
 ```
