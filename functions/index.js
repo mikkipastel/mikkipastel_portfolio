@@ -15,8 +15,9 @@ const {getFirestore} = require("firebase-admin/firestore");
 
 initializeApp();
 
-const express = require('express');
-//var functions = firebase.app().functions('asia-east2');
+// set regions
+const { setGlobalOptions } = require("firebase-functions/v2");
+setGlobalOptions({ region: 'asia-east2' });
 
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
@@ -25,9 +26,9 @@ exports.hello = onRequest((request, response) => {
   response.send('Hello World!');
 });
 
+// Get firestore to create API
 const firestore = getFirestore();
-let limit = 20;
-
+const express = require('express');
 const appPortfolio = express();
 const cors = require("cors");
 appPortfolio.use(cors());
@@ -37,7 +38,7 @@ appPortfolio.get('/activites', function (request, response) {
     var data = {};
     const result = [];
 
-    firestore.collection('activity').orderBy("published", "desc").limit(limit).get()
+    firestore.collection('activity').orderBy("time", "desc").get()
         .then(snapshot => {
             if (snapshot.empty) {
                 console.log('No matching documents.');
@@ -115,7 +116,7 @@ appPortfolio.get('/web-apps', function (request, response) {
     var data = {};
     const result = [];
 
-    firestore.collection('portfolioWebApp').orderBy("year", "desc").limit(limit).get()
+    firestore.collection("portfolioWebApp").orderBy("year", "desc").get()
         .then(snapshot => {
             if (snapshot.empty) {
                 console.log('No matching documents.');
