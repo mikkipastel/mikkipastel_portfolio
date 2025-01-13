@@ -31,12 +31,9 @@ async function fetchLastedBlog() {
                 <p>more >></p>
                 </a>`;
         blogListElement.appendChild(more);
-    
+        parentView.style.display = 'block';
         } catch (error) {
             console.error("Error fetching lasted blog list:", error);
-        } finally {
-            // show section then render data
-            parentView.style.display = 'block';
         }
     }
 fetchLastedBlog();

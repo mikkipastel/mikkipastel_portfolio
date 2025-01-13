@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Miikpastel who android developer portfolio website">
 
-    <meta http-equiv="Cache-control" content="public">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- improve for web cache-->
+    <meta http-equiv="Cache-control" content="public">
     
     <!-- PWA -->
     <link rel="icon" href="favicon.ico">
@@ -26,7 +28,7 @@
 
     <!-- Style -->
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
-    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,13 +36,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Handjet&family=Press+Start+2P&display=swap" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/TlwgTypewriter/TlwgTypewriter.css" rel="stylesheet"/>
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80270150-3"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X7RKMJNZ0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-80270150-3');
+      gtag('config', 'G-7X7RKMJNZ0');
     </script>
   </head>
   <body>
@@ -82,19 +84,19 @@
           </p>
           <div class="div">
             <div class="lists">
-              <a href="https://www.facebook.com/mikkipastel">
+              <a href="https://www.facebook.com/mikkipastel" aria-label="Facebook Page">
                 <i class="nes-icon facebook"></i>
               </a>
-              <a href="https://www.x.com/mikkipastel">
+              <a href="https://www.x.com/mikkipastel" aria-label="X">
                 <i class="nes-icon twitter"></i>
               </a>
-              <a href="https://www.github.com/mikkipastel">
+              <a href="https://www.github.com/mikkipastel" aria-label="Github">
                 <i class="nes-icon github"></i>
               </a>
-              <a href="https://medium.com/@minseobingsu">
+              <a href="https://medium.com/@minseobingsu" aria-label="Medium">
                 <i class="nes-icon medium"></i>
               </a>
-              <a href="https://www.youtube.com/c/mikkicoding">
+              <a href="https://www.youtube.com/c/mikkicoding" aria-label="YouTube">
                 <i class="nes-icon youtube"></i>
               </a>
             </div>
@@ -173,7 +175,7 @@
       </div>
 
       <div id="footer">
-        <img id="astronaut" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/astronaut.png?v=1736074211168"/>
+        <img id="astronaut" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/astronaut.png?v=1736074211168" alt="astronaut"/>
         <div class="row">
           <p>&copy; 2025 MikkiPastel</p>
           <p><a href="#">Back to top</a></p>
@@ -192,7 +194,7 @@
     </div>
 
     <script src="./js/cover.js"></script>
-    <script src="./js/fetchBlog.js"></script>
+    <!-- <script src="./js/fetchBlog.js"></script> -->
     <script src="./js/sound.js"></script>
     <script src="./js/portfolio.js"></script>
 

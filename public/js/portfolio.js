@@ -23,11 +23,9 @@ async function getWebApps() {
         WebAppListElement
       );
     });
+    parentView.style.display = 'block';
   } catch (error) {
     console.error("Error fetching web app list:", error);
-  } finally {
-    // show section then render data
-    parentView.style.display = 'block';
   }
 }
 getWebApps();
@@ -57,11 +55,9 @@ async function getAndroidApps() {
         AndroidAppListElement
       );
     });
+    parentView.style.display = 'block';
   } catch (error) {
     console.error("Error fetching android app list:", error);
-  } finally {
-    // show section then render data
-    parentView.style.display = 'block';
   }
 }
 getAndroidApps();
@@ -91,11 +87,9 @@ async function getAndroidProjects() {
         AndroidAppListElement
       );
     });
+    parentView.style.display = 'block';
   } catch (error) {
     console.error("Error fetching android project list:", error);
-  } finally {
-    // show section then render data
-    parentView.style.display = 'block';
   }
 }
 getAndroidProjects();
@@ -163,20 +157,17 @@ async function getActivities() {
             icon = `<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M6 4h14v2h2v6h-8v2h6v2h-4v2h-2v2H2V8h2V6h2V4zm2 6h2V8H8v2z" fill="currentColor"/> </svg>`
           }
           item.innerHTML = `
-          <a href=${btn.url}>
+          <a href=${btn.url} aria-label="${btn.type} ${event.title}">
             ${icon}
           </a>`;
           demoElement.appendChild(item);
         });
       }
-      
       index++
     });
+    parentView.style.display = 'block';
   } catch (error) {
     console.error("Error fetching activity list:", error);
-  } finally {
-    // show section then render data
-    parentView.style.display = 'block';
   }
 }
 getActivities();
@@ -194,7 +185,7 @@ function createItem(appIcon, appName, description, url, year, parantView) {
   const item = document.createElement("div");
   item.className = "app-item";
   item.innerHTML = `<img src="${appIcon}" alt="${appName}"/>
-      <h3>${year}: <a href="${url}">${appName}</a></h3>
+      <h3>${year}: <a href="${url}" aria-label="${appName}">${appName}</a></h3>
       <p>${description}</p>`;
   parantView.appendChild(item);
 }
@@ -228,7 +219,7 @@ function showDialog(html) {
   dialog.className = "nes-dialog is-dark is-rounded";
   dialog.id = "dialog-default";
   dialog.innerHTML = `
-     <form method="dialog">
+     <form method="dialog" style="display: flex;flex-direction: column;align-items: center;">
        ${html}
        <menu class="dialog-menu">
          <button class="nes-btn">Close</button>

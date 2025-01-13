@@ -89,6 +89,7 @@ body {
 /* Blog Item */
 #lasted-blog {
   background-image: url("https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/lasted-blog-background.jpg?v=1735313250397");
+  display: none;
 }
 
 #blog-list {
@@ -411,6 +412,11 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
+  
+  #activity-list {
+    margin-left: 12px;
+    margin-right: 12px;
+}
 
   #control {
     width: 40px;
