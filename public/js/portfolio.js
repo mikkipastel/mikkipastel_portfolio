@@ -207,6 +207,7 @@ function createItemWithOpenPopup(
     
   const button = document.createElement("button");
   button.className = "nes-btn is-primary"
+  button.style = "color: #000000;"
   button.textContent = "Information";
   button.addEventListener('click', () => {
     showDialog(html);
