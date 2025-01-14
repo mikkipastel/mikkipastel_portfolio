@@ -34,7 +34,10 @@ npm install -g firebase-tools
 ### Firebase Cloud Function
 ```
 cd functions
+// deploy all
 npm run deploy
+// deploy only function
+firebase deploy --only functions:FUNCTION_NAME
 ```
 
 ### Firebase Hosting
