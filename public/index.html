@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>MikkiPastel Portfolio: Android Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MikkiPastel's Portfolio website, who is android developer">
+    <meta name="author" content="Monthira C.">
+    <meta name="robots" content="index,follow">
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Mikkipastel studio develop android application by android developer and blogger">
-    <meta name="author" content="Monthira C.">
-    <link rel="icon" href="favicon.ico">
-    <meta name="theme-color" content='#ff0000'>
+    <meta name="mobile-web-app-capable" content="yes">
 
     <!-- improve for web cache-->
     <meta http-equiv="Cache-control" content="public">
+    
+    <!-- PWA -->
+    <link rel="icon" href="favicon.ico">
+    <meta name="theme-color" content='#ff0000'>
 
-    <title>MikkiPastel Studio</title>
-
-    <!-- TODO add manifest here -->
+    <!-- add manifest here -->
     <link rel="manifest" href="/manifest.json">
     <!-- Add to home screen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,541 +28,178 @@
     <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
     <meta name="msapplication-TileColor" content="#ff0000">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <script async src="js/ie-emulation-modes-warning.js"></script>
+    <!-- Style -->
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80270150-3"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+    <!-- <link href="https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/TlwgTypewriter/TlwgTypewriter.css" rel="stylesheet"/> -->
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X7RKMJNZ0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-80270150-3');
+      gtag('config', 'G-7X7RKMJNZ0');
     </script>
   </head>
-<!-- JUMBOTRON  -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"><b>MikkiPastel Studio</b></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://www.mikkipastel.com">My Blog</a></li>
-              </ul>
+    <div>
+      <div id="cover">
+        <div id="cover-scroll">
+          <img id="rocket" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/rocket.webp?v=1736783360323" alt="rocket"/>
+          <div id="moon-earth">
+            <img id="earth" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/earth.webp?v=1736783233362" alt="earth"/>
+            <img id="moon" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/moon.webp?v=1736783357400" alt="moon"/>
+          </div>
+        </div>
+        
+        <div>
+          <span id="name">MikkiPastel</span>
+          <p id="description">Monthira Chayabanjonglerd</p>
+        </div>
+
+        <div id="button-website">
+          <a class="nes-btn" href="https://www.mikkipastel.com">Website</a>
+          <a class="nes-btn" href="https://bio.mikkipastel.com/">Biolink</a>
+          <a class="nes-btn" href="https://mikkicoding.mikkipastel.com/">MikkiCoding</a>
+          <a class="nes-btn" href="https://cryptominseo.mikkipastel.com/">cryptominseo</a>
+        </div>
+      </div>
+
+      <div id="about">
+        <img
+          id="pfp"
+          src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/profile.webp?v=1736783612487"
+          alt="profile picture"
+        />
+        <div id="about-detail">
+          <h2>About Me</h2>
+          <p>
+            I am a full-time Android Developer and part-time contributor with
+            developer community and web3 world, who believe people have hard
+            skills and soft skills to up-skill to da moon.
+          </p>
+          <div class="div">
+            <div class="lists">
+              <a href="https://www.facebook.com/mikkipastel" aria-label="Facebook Page">
+                <i class="nes-icon facebook"></i>
+              </a>
+              <a href="https://www.x.com/mikkipastel" aria-label="X">
+                <i class="nes-icon twitter"></i>
+              </a>
+              <a href="https://www.github.com/mikkipastel" aria-label="Github">
+                <i class="nes-icon github"></i>
+              </a>
+              <a href="https://medium.com/@minseobingsu" aria-label="Medium">
+                <i class="nes-icon medium"></i>
+              </a>
+              <a href="https://www.youtube.com/c/mikkicoding" aria-label="YouTube">
+                <i class="nes-icon youtube"></i>
+              </a>
             </div>
           </div>
-        </nav>
+        </div>
+      </div>
+
+      <div id="lasted-blog" class="portfolio-item">
+        <div class="row">
+          <h2>Lasted Blog</h2>
+          <div id="blog-list"></div>
+        </div>
+      </div>
+
+      <div id="publish-application" class="portfolio-item">
+        <div class="row">
+          <h2>Publish Application</h2>
+          <div id="publish-app-list" class="app-list"></div>
+        </div>
+      </div>
+
+      <div id="android-project" class="portfolio-item">
+        <div class="row">
+          <h2>Android Project (Archive)</h2>
+          <div id="project-list" class="app-list"></div>
+        </div>
+      </div>
+
+      <div id="web-app" class="portfolio-item">
+        <div class="row">
+          <h2>Web Application / Chatbot</h2>
+          <div id="web-list" class="app-list"></div>
+        </div>
+      </div>
+
+      <div id="activity-timeline" class="portfolio-item">
+        <div class="row">
+          <h2>Experience Timeline</h2>
+          <div id="activity-list"></div>
+        </div>
+      </div>
+      
+      <div class="experience-list">
+        <div class="row">
+          <h2>Work Experience</h2>
+          <div class="lists">
+            <ul>
+              <li>July 2022 - present : Senior Engineer, TrueMoney.</li>
+                <ul>
+                  <li><a href="https://play.google.com/store/apps/details?id=th.co.truemoney.wallet&hl=en" style="color: #ffd966;">TrueMoney</a>, Thailand financial application</li>
+                </ul>
+              <li>January 2019 - June 2022 : Android Developer, Ookbee U.</li>
+                <ul>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.ookbee.joyapp.android" style="color: #ffd966;">Joylada</a>, chat novel application</li>
+                  <li><a href="https://play.google.com/store/apps/details?id=ookbee.beeber.live" style="color: #ffd966;">Beeber</a>, live and sound UGC content application</li>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.ookbee.anna" style="color: #ffd966;">Anna</a>, live quiz show application</li>
+                </ul>
+              <li>July 2017 - December 2018 : Android Developer, Fungjai.</li>
+                <ul>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.fungjai" style="color: #ffd966;">Fungjai</a>, indies music streaming application</li>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.songshakes" style="color: #ffd966;">SongShakes</a>, cover music commulity applcation</li>
+                </ul>
+              <li>April 2013 - June 2017 : Test Engineer, ThaiGerTec.</li>
+              <li>April - May 2012 : Trainee in TESA Hyper Camp 2012 project.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h2>Education</h2>
+          <div class="lists">
+            <ul>
+              <li>2013 : Bachelor of engineering, Computer Enginering, Mahidol University.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <img id="astronaut" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/astronaut.webp?v=1736783226270" alt="astronaut"/>
+        <div class="row">
+          <p>&copy; 2025 MikkiPastel</p>
+          <p><a href="#">Back to top</a></p>
+        </div>
       </div>
     </div>
-    <section class="jumbotron">
-      <div class="container">
-        <div class="row text-center">
-          <h2>MikkiPastel Studio</h2>
-          <h3>Android developer, Programmer and Blogger</h3>
-        </div>
-      </div>
-    </section>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div id="control">
+      <img id="toggle-sound" src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/sound_off.webp?v=1736783236059" alt="sound off">
+      <audio>
+        <source
+          src="https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/pixel-dream.MP3?v=1735293865874"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
 
-    <div class="container marketing">
-      <h1>Publish application</h1>
-      <br>
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_emoji_soundboard.png" alt="MikkiPastel" width="140" height="140">
-          <h2>2021: Emoji Soundboard</h2>
-          <p>soundboard android application with emoji to remember about sound effect in soundboard.</p>
-          <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mikkipastel.soundboard" role="button">Download &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_mikki.png" alt="MikkiPastel" width="140" height="140">
-          <h2>2020: MikkiPastel</h2>
-          <p>Redesign app is released in 2016. Show all content from my webblog with MVVM code structure.</p>
-          <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mikkipastel.blog" role="button">Download &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_fildeo.png" alt="fildeo" width="140" height="140">
-          <h2>2018: Fildeo</h2>
-          <p>Add filter to your video and preview with ExoPlayer.</p>
-          <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mikkipastel.fildeo" role="button">Download &raquo;</a></p>
-        </div>
-      </div>
-      <div class="row">  
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_chicktoys.png" alt="chicktoys" width="140" height="140">
-          <h2>2017: Chicktoys</h2>
-          <p>Squeaky rubber chicken toy android application.</p>
-          <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mikkipastel.chicktoys&hl=th" role="button">Download &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_sukhum.jpg" alt="loongsukhum" width="140" height="140">
-          <h2>2016: Loong Sukhum</h2>
-          <p>Transportation application, search from bus number and bus stop name, nearby bus stop, and send feedback to Loong Sukhum team</p>
-          <p><a class="btn btn-primary" href="https://loongsukhum-7a4a9.firebaseapp.com" role="button">Website &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_feelfit.png" alt="feelfit" width="140" height="140">
-          <h2>2014: feelfit</h2>
-          <p>Running and walking to burn calories in android application, work with ThaiHealth and mindidea.</p>
-          <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mindidea.feelfit&hl=th" role="button">Download &raquo;</a></p>
-        </div>
-      </div>
-      <hr class="featurette-divider">
-
-    <div class="container marketing">
-      <h1>Web Application / Chatbot</h1>
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_react.png" alt="𝓰𝓸 𝓽𝓸 𝓽𝓱𝓮 𝓽𝓻𝓪𝓹" width="140" height="140">
-          <h2>2022: 𝓰𝓸 𝓽𝓸 𝓽𝓱𝓮 𝓽𝓻𝓪𝓹</h2>
-          <p>Sample redirect to YouTube with random trap (in future) with Vercel and React.js.</p>
-          <p><a class="btn btn-primary" href="https://gotothetrap.vercel.app/" role="button">Talk with Him &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_mikkicoding.PNG" alt="mikkicoding" width="140" height="140">
-          <h2>2022: mikkicoding</h2>
-          <p>Digital garden for tutorial content in Gitbook. This project is migrate from Owlvegrammo.</p>
-          <p><a class="btn btn-primary" href="https://mikkicoding.mikkipastel.com/" role="button">Talk with Him &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_lilycatbot.jpg" alt="Lilycatbot" width="140" height="140">
-          <h2>2021: lilycatbot</h2>
-          <p>Cat characture chatbot in LINE OA. This chatbot is random cat word and no answer for send to user and secret feature for pet cat with purrr sound.</p>
-          <p><a class="btn btn-primary" href="https://line.me/R/ti/p/@761lieys" role="button">Talk with Him &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_babyseal.jpg" alt="Onemeal" width="140" height="140">
-          <h2>2018: เจ้าพ่ออุ๋งชัย</h2>
-          <p>Chatbot for ramdom lotto number and fortune in LINE chatbot</p>
-          <p><a class="btn btn-primary" href="https://line.me/R/ti/p/Bm6esAoqwg" role="button">Talk with Him &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_onemeal.png" alt="Onemeal" width="140" height="140">
-          <h2>2017: น้องหมีตัวแตก</h2>
-          <p>Chatbot for ramdom your lunch food in Facebook Messenger :)</p>
-          <p><a class="btn btn-primary" href="https://m.me/beareateverything" role="button">Talk with Him &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/owlvegrammo.PNG" alt="Owlvegrammo" width="140" height="140">
-          <h2>2017: Owlvegrammo (archive)</h2>
-          <p>This web application is in PWA online hackathon which flash card for learning programming language. This web can use offline mode and support manifest.</p>
-          <p><a class="btn btn-primary" href="https://owlvegrammo.firebaseapp.com" role="button">Website &raquo;</a></p>
-        </div>
-      </div>
-      <hr class="featurette-divider">
-
-    <div class="container marketing">
-      <h1>Android project</h1>
-      <br>
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_BKroute.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>2014-2015: BKroute</h2>
-          <p>BKroute, help tourist to traveling in Bangkok by transportation application on android, present idea at MEGA2014 and finalists in Samart Innovation award 2015</p>
-          <p><a class="btn btn-primary" href="BKroute.html" role="button">Information &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_healthME.png" alt="health android application" width="140" height="140">
-          <h2>2013: healthME</h2>
-          <p>health application on android and windows phone, join the competition in AIS the startup 2014</p>
-          <p><a class="btn btn-primary" href="healthMe.html" role="button">Information &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_mymotion.png" alt="mymotion stopmotion android application" width="140" height="140">
-          <h2>2012: MyMotion</h2>
-          <p>Stop motion android application project in Mobile Developer subject.</p>
-          <p><a class="btn btn-primary" href="MyMotion.html" role="button">Information &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-circle" src="image/app/app_ipcam.png" alt="ipcam android application" width="140" height="140">
-          <h2>2012: IP Camera Surveillance</h2>
-          <p>TESA HYPER CAMP 2012 by TESA and get the cooperation of FORTH Corporation Public Company Limited.</p>
-          <p><a class="btn btn-primary" href="ipcam.html" role="button">Information &raquo;</a></p>
-        </div>
-      </div>
-      <hr class="featurette-divider">
-
-      <!-- START THE FEATURETTES -->
-      <h1>Activity</h1>
-      <br>
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2024 : <span class="text-muted">iCreator Camp 2024</span></h2>
-          <p class="lead">First Thailand creator camp by RAiNMAKER and faculty of communication art, Chalalongkorn University. Selected 100 creators to study for 4 weeks to professional creator.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_icreator_camp_2024.jpg" alt="iCreator Camp 2024">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2023 : <span class="text-muted">Women in Tech: Power Hour Dinner</span></h2>
-          <p class="lead">talk about personal branding from my experience.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_women_in_tech_power_hour_dinner.png" alt="Women in Tech: Power Hour Dinner">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">How to do my Bio Website</span></h2>
-          <p class="lead">Facebook Live with DigitalX to teach how to do bio website with Glitch.</p>
-          <p><a class="btn btn-primary" href="https://www.facebook.com/watch/100063698149844" role="button">Watch my session &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_how_to_do_my_bio_website.png" alt="How to do my Bio Website">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">Dev Mountain Tech Festival 2</span></h2>
-          <p class="lead">This is my first-time public speaking in Chiang Mai and my session is "What’s about NFT for newbie" to talk about my research on How to do my NFT collection.</p>
-          <p><a class="btn btn-primary" href="https://youtu.be/-3Ur6Kwg65A" role="button">Watch my session &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_dev_mountain_tech_festival_2.png" alt="Dev Mountain Tech Festival 2">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">Hacktoberfest Thailand 2022</span></h2>
-          <p class="lead">I sent call to paper to contribute to my session "How to contribute tech community with your blog" for this event.</p>
-          <p><a class="btn btn-primary" href="https://youtu.be/8aVdlBhY6zU" role="button">Watch my session &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_hacktoberfest_2022.png" alt="Hacktoberfest Thailand 2022">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">Android Bangkok 2022</span></h2>
-          <p class="lead">I came back for a speaker in Android Bangkok again with "Level up with Android Library for Android Developer" session.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_android_bangkok_2022.png" alt="Android Bangkok 2022">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">Skooldio Creator Square</span></h2>
-          <p class="lead">Camp for tech content creator by Skooldio.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_skooldio_creator_square.jpg" alt="Skooldio Creator Square">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2022 : <span class="text-muted">Women Developers Academy SEA</span></h2>
-          <p class="lead">Participate to Exclusive Online Training Program and 1-1 Mentorship with Googler for 4 weeks.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_monthira_WDA.png" alt="Women Developers Academy SEA">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2021 : <span class="text-muted">Bangkok Softskill for Tech #3: Self Management</span></h2>
-          <p class="lead">Speaker for sharing soft skill "Easy PKM for developer" in Clubhouse room.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_bkk_softskill_for_tech_03.jpeg" alt="Bangkok Softskill for Tech #3: Self Management">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2021 : <span class="text-muted">Hacktoberfest Open Hack Day Bangkok 2021</span></h2>
-          <p class="lead">Event partner with Thoughtworks for Hacktoberfest Open Hack Day Bangkok 2021.</p>
-          <p><a class="btn btn-primary" href="https://mikkipastel.com/hacktoberfest-open-hack-day-bangkok-2021/" role="button">Read Blog &raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://www.thoughtworks.com/th_event_hacktoberfest_2021" role="button">Event Page &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_hacktoberfest_2021.jpeg" alt="The 5th Stupid Hackathon Thailand">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2021 : <span class="text-muted">The 5th Stupid Hackathon Thailand</span></h2>
-          <p class="lead">I join this event for create creative application from idea such as Emoji Soundboard, soundboard android application with emoji to remember about sound effect in soundboard, and Lilycatbot, cat characture chatbot.</p>
-          <p><a class="btn btn-primary" href="https://www.mikkipastel.com/the-5th-stupid-hackathon-thailand/" role="button">Read Blog &raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://stupidhackth.github.io/5/" role="button">Event Website &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_sth5.png" alt="The 5th Stupid Hackathon Thailand">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2021 : <span class="text-muted">TMRW Creators Camp 2021</span></h2>
-          <p class="lead">I am 1 of 100 content creators selected to participate in this event which instructed by Thailand Professional Creators in Storytelling, Creative Content, Video Production and Live Streaming in May 2021</p>
-          <p><a class="btn btn-primary" href="https://www.mikkipastel.com/final-day-and-review-tmrw-creators-camp-2021/" role="button">Read Blog &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_tmrw_creators_camp_2021.png" alt="TMRW Creators Camp 2021">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2021 : <span class="text-muted">International Women's Day, PyLadied Bangkok</span></h2>
-          <p class="lead">I am speaker in International Women's Day, PyLadied Bangkok online event on 8 March 2021 which topic "Modern Software Developer with Modular Architecture" and create animation with Procreate to help explain about this.</p>
-          <p><a class="btn btn-primary" href="https://youtu.be/pP4axN4cI4A?t=4736" role="button">Watch my session &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_pyladies_bangkok.jpg" alt="International Women's Day, PyLadied Bangkok">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2019 : <span class="text-muted">Staff of Android Developer Meetup 1.0</span></h2>
-          <p class="lead">This is first meetup to join staff role and sprint off this event in 2 weeks. It is so exciting to see Android Developers in this meetup before lockdown by COVID_19.</p>
-          <p><a class="btn btn-primary" href="https://www.mikkipastel.com/more-questions-from-audience-in-android-developer-meetup-1-0/" role="button">Excusive for this event &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="https://www.mikkipastel.com/content/images/size/w2000/2020/02/80117632_2807913119273082_9129205127998078976_o.jpg" alt="Android Developer Meetup 1.0">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2019 : <span class="text-muted">Today at Apple with Women Who Code Bangkok</span></h2>
-          <p class="lead">I join this event on 7 September 2019 at Apple Store, ICONSIAM. Main activity in this event is join Today at Apple session "App Skills: Making an App Prototype with Keynote".</p>
-          <p><a class="btn btn-primary" href="https://medium.com/mikkipastel/today-at-apple-with-women-who-code-bangkok-at-apple-iconsiam-f0d6688cd572" role="button">Blog &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_wwc_todayatapple.jpg" alt="Today at Apple with Women Who Code Bangkok">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2019 : <span class="text-muted">Android Bangkok 2019</span></h2>
-          <p class="lead">I am speaker in Android Bangkok 2019 on 7 July 2019 at S31 hotel. My session is "Recommend Material Components in your app" which talk about Android Developer have some problem for create UI in application and it is so difficult to talk to designer in your team. This session talk about recommend some Material Component to use it for solve problem about create layout and understand Material Design for talking it with your designer.</p>
-          <p><a class="btn btn-primary" href="https://www.slideshare.net/sanaka504/recommended-material-components-android-bangkok-2019" role="button">Slide &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_droidcon19.jpg" alt="Android Bangkok 2019">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2018 : <span class="text-muted">GuCode</span></h2>
-          <p class="lead">I am a guess in GuCode S2 EP.18 Chatbot with DialogFlow which tell about begin how to do chatbot in DialogFlow and integrate with LINE account.</p>
-          <p><a class="btn btn-primary" href="https://www.youtube.com/watch?v=xovgKbEZ62A" role="button">Video EP. &raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://medium.com/mikkipastel/dialogflow-101-8b70630e1f0d" role="button">Read blog about this &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_gucode.jpg" alt="GuCode">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2018 : <span class="text-muted">Code Mania 111</span></h2>
-          <p class="lead">I am speaker in Code Mania 111 on 10 June 2018 at Siam University. My session is "Kotlin Generation" which said about how to begin and adapt coding with Kotlin in your work for Android Developer</p>
-          <p><a class="btn btn-primary" href="https://blacklenspub.com/kotlin-generation-ed77a1f7f47a" role="button">Read blog about this &raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://medium.com/mikkipastel/code-mania-111-kotlin-generation-q-and-a-91e81d660293" role="button">Q & A &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_code_mania_111.jpeg" alt="Code Mania 111">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2018 : <span class="text-muted">Android Bangkok 2018</span></h2>
-          <p class="lead">I am speaker in Android Bangkok 2018 on 31 March 2018 at Siam Pic-Ganesha. My session is "ExoPlayer" which expend about my experience for coding with it and share it from Zero to Hero</p>
-          <p><a class="btn btn-primary" href="https://medium.com/fungjai/playing-video-by-exoplayer-b97903be0b33" role="button">Read blog about this &raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://github.com/mikkipastel/VideoPlanet/tree/develop" role="button">Demo &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_droidcon18.jpg" alt="Android Bangkok 2018">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2017 : <span class="text-muted">Kotlin Meetup 1.2</span></h2>
-          <p class="lead">I am a speaker in Kotlin Meetup 1.2 for "PWA with Kotlin" topic on 13 Dec. 2017 at DTAC HOUSE.</p>
-          <p><a class="btn btn-primary" href="https://medium.com/fungjai/%E0%B8%97%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A-pwa-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-kotlin-%E0%B9%82%E0%B8%94%E0%B8%A2-android-developer-%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%9B%E0%B9%82%E0%B8%8A%E0%B8%A7%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88-meet-up-%E0%B8%99%E0%B8%B0%E0%B8%AE%E0%B8%B0-371b092cd06d" role="button">Read blog about this&raquo;</a></p>
-          <p></p>
-          <p><a class="btn btn-primary" href="https://onemeal-d909a.firebaseapp.com" role="button">Play it! &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/kotlin-meetup-1.2.jpg" alt="Kotlin Meetup 1.2">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2017 : <span class="text-muted">Firebase AppFest Bangkok</span></h2>
-          <p class="lead">Hackathon with Cloud Function in Firebase on 30 September - 1 October 2017 at AIS D.C. This project is chatbot for random your lunch food in carteen by น้องหมีตัวแตก</p>
-          <p><a class="btn btn-primary" href="https://m.me/beareateverything" role="button">Talk to Him &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_firebase_appfest.jpg" alt="PWA online hackathon">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2017 : <span class="text-muted">PWA online hackathon</span></h2>
-          <p class="lead">Online hackathon to build PWA with firebase hosting and push code in github by Web Developer Thailand at 23-25 June 2017 and got 1 in 200 first to submission finished web application.</p>
-          <p><a class="btn btn-primary" href="https://mikkipastel.blogspot.com/2017/06/hackathon-pwa-online-hackathon.html" role="button">Read blog about this &raquo;</a></p>
-          <p><a class="btn btn-primary" href="https://owlvegrammo.firebaseapp.com" role="button">Website &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/pwa_reward.jpg" alt="PWA online hackathon">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2017 : <span class="text-muted">Google Ignite 2017</span></h2>
-          <p class="lead">Training about digital marketing with Google Adwords by Google Thailand at 11-12 March 2017 and got "Adwords Video Certification" from Google.</p>
-          <p><a class="btn btn-primary" href="https://mikkipastel.blogspot.com/2017/03/google-ignite-camp-1-adwords-certified.html" role="button">Read blog about this &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/monthira_adword_cerf.jpg" alt="Google Ignite 2017">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2016 : <span class="text-muted">Graduate "Innovation Management for Executives (IMEs)" course #14</span></h2>
-          <p class="lead">Course from NIA (National Innovation Agency) and DEI (Distance Education Institute) about innovation management. I get knowledge from commulity friendship such as business model canvas, presentation, digital marketing, and other.</p>
-          <p class="lead">graduted at 27 Nov. 2016</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_ime24.gif" alt="Innovation Management for Executives (IMEs)">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2016 : <span class="text-muted">Innovation distric walkathon</span></h2>
-          <p class="lead">Innovation hackathon activity by NIA. Explore Yothi distric for solve problem in hospital with medical tech. Team purpose hand washing machine, Handy smart wash, to solve healthcare provider problem with no more time to clean them hand minutely</p>
-          <p><a class="btn btn-primary" href="https://mikkipastel.blogspot.com/2016/10/walkathon-nia.html" role="button">Read blog about this &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_walkathon.jpg" alt="Innovation distric walkathon">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2016 : <span class="text-muted">Bangkok Urban Hack Day</span></h2>
-          <p class="lead">Loong sukhum project about bus route, bus number, and bus time with Facebook chatbot and Android application.</p>
-          <p><a class="btn btn-primary" href="https://loongsukhum-7a4a9.firebaseapp.com" role="button">Website &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_bukd.jpg" alt="Loong sukhum team">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2015 : <span class="text-muted">Samart Innovation Award</span></h2>
-          <p class="lead">Team have won the final round award of 20,000 bath from BKroute application.</p>
-          <p><a class="btn btn-primary" href="BKroute.html" role="button">Information &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_sia.jpg" alt="BKroute android application">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">2014 : <span class="text-muted">MEGA 2014</span></h2>
-          <p class="lead">purpose application about transportation android application name BKroute in contest</p>
-          <p><a class="btn btn-primary" href="BKroute.html" role="button">Information &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="image/activity/activity_mega2014.jpg" alt="BKroute android application">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <div class="row">
-          <ul class="col-sm-4">
-            <li class="col-sm-1"><a href="https://www.facebook.com/mikkipastel" alt="facebook"><img src="https://simpleicons.org/icons/facebook.svg" alt="facebook"></a></li>
-            <li class="col-sm-1"></li>
-            <li class="col-sm-1"><a href="https://x.com/mikkipastel" alt="s"><img src="https://simpleicons.org/icons/x.svg" alt="s"></a></li>
-            <li class="col-sm-1"></li>
-            <li class="col-sm-1"><a href="https://www.instagram.com/mikkipastel" alt="instagram"> <img src="https://simpleicons.org/icons/instagram.svg" alt="instagram"></a></li>
-            <li class="col-sm-1"></li>
-            <li class="col-sm-1"><a href="https://www.youtube.com/channel/UCtGbMSe4i7NJiKQ271Fezcg" alt="youtube"> <img src="https://simpleicons.org/icons/youtube.svg" alt="youtube"></a></li>
-            <li class="col-sm-1"></li>
-            <li class="col-sm-1"><a href="https://www.github.com/mikkipastel" alt="github"> <img src="https://simpleicons.org/icons/github.svg" alt="github"></a></li>
-            <li class="col-sm-1"></li>
-            <li class="col-sm-1"><a href="https://medium.com/@minseobingsu" alt="medium"> <img src="https://simpleicons.org/icons/medium.svg" alt="medium"></a></li>
-          </ul>
-          <p class="col-sm-8">&copy; 2022 MikkiPastel</p>
-        </div>
-        <div class="row">
-          <p class="col-sm-4"><a href="#">Back to top</a></p>
-        </div>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script> -->
-    <script async src="js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script async src="js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script async src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/cover.js"></script>
+    <!-- <script src="./js/fetchBlog.js"></script> -->
+    <script src="./js/sound.js"></script>
+    <script src="./js/portfolio.js"></script>
 
     <!-- service worker for PWA -->
     <script>
