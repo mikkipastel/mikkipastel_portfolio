@@ -35,6 +35,11 @@ npm install
 npm install -g firebase-tools
 ```
 
+- Firebase CIL login
+```
+firebase login
+```
+
 ### Firebase Cloud Function
 - go to functions folder
 ```
