@@ -1,0 +1,30 @@
+[
+    {
+        "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_project_BKroute.webp?v=1736822092986",
+        "appName": "BKroute",
+        "description": "BKroute, help tourist to traveling in Bangkok by transportation application on android, present idea at MEGA2014 and finalists in Samart Innovation award 2015.",
+        "html": "<div style=\"display: flex;flex-direction: column;align-items: center;width: 100%;\"><h1>BKroute</h1><iframe allowfullscreen class=center-block frameborder=1 height=360 src=\"https://www.youtube.com/embed/e-_kamlD4Oo?ecver=2\"width=480></iframe><br><iframe allowfullscreen class=center-block frameborder=1 height=485 src=\"https://docs.google.com/presentation/d/1LFcVNCqb5FuJ9CgEgmOqnD8MfPy5SeaK2lPs1-WV1UU/embed?start=false&loop=false&delayms=3000\"width=595 mozallowfullscreen=true webkitallowfullscreen=true></iframe><br><p class=lead>BKroute, help tourist to traveling in Bangkok by transportation application on android, present idea at MEGA2014 and finalists in Samart Innovation award 2015<p>Team is in final round award of 20,000 bath from BKroute application. The contest involved hard work in R&D with business model, created mobile application, presentation, and marketing.<p>Navigate to attraction in Bangkok which fastest and cheaper route solution by bus, BTS, MRT, BRT, and Airport Link , Various transportations, Save hostel and favorites attraction, Introduce place and event in Bangkok, Notification about urgent traffic news, Thai and English language.<p>NOW we close this application because this application is large scale and no budget to do it.</div>",
+        "year": "2014-2015"
+    },
+    {
+        "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_project_healthME.webp?v=1736822096296",
+        "appName": "healthME",
+        "description": "health application on android and windows phone, join the competition in AIS the startup 2014",
+        "html": "<div style=\"display: flex;flex-direction: column;align-items: center;width: 100%;\"><h1>healthMe</h1><iframe allowfullscreen class=center-block frameborder=1 height=485 mozallowfullscreen=true src=\"https://docs.google.com/presentation/d/1JxHD29JlQzZEmA9JRaC96EO9hggqps_4FuwFN6FmoHA/embed?start=false&loop=false&delayms=3000\"webkitallowfullscreen=true width=595></iframe><br><p class=lead>Feature are calculate bmi, WhTR, BMR ,%fat, TDEE and save user history, pedometer from running and walking to burn calories, save user recipe, measurement, about office syndrome, and shared result and recipe to facebook and twitter.<p>health application on android and windows phone, join the competition in AIS the startup 2014.<p>This project is not finish now because durate to improve feature accord with market in future which new name is “heallipe”.</div>",
+        "year": "2013"
+    },
+    {
+        "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_project_mymotion.webp?v=1736822101527",
+        "appName": "MyMotion",
+        "description": "MyMotion",
+        "html": "<div style=\"display: flex;flex-direction: column;align-items: center;width: 100%;\"><h1>MyMotion</h1><iframe allowfullscreen class=center-block frameborder=1 height=485 mozallowfullscreen=true src=\"https://docs.google.com/presentation/d/1ENSchuZ8435n3r5pgPLkzXKfsFtIiOiWhcPDB-uRQrw/embed?start=false&loop=false&delayms=3000\"webkitallowfullscreen=true width=595></iframe><br><p class=lead>Stop motion android application project in Mobile Developer subject.</div>",
+        "year": "2012"
+    },
+    {
+        "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_project_ipcam.webp?v=1736822099051",
+        "appName": "IP Camera Surveillance",
+        "description": "TESA HYPER CAMP 2012 by TESA and get the cooperation of FORTH Corporation Public Company Limited.",
+        "html": "<div style=\"display: flex;flex-direction: column;align-items: center;width: 100%;\"><h1>IP Camera Surveillance</h1><iframe allowfullscreen class=center-block frameborder=1 height=485 mozallowfullscreen=true src=\"https://docs.google.com/presentation/d/1UHX2LWRT4K9Ls5I7EJpGD5DNo243NEPAjgQkc0i4-nM/embed?start=false&loop=false&delayms=3000\"webkitallowfullscreen=true width=595></iframe><br><p class=lead>IP Camera Surveillance, ip camera application for android tablet, during the internship with Hyper camp 2012 project by TESA and get the cooperation of FORTH corporation public company limited.<p>This application features are capture image and video from camera, run backgroud with slide picture, and set time duration to application recording picture and video.<p>Features in my responsibility are capture photo, record video, show picture and video gallery and set time to capture from tablet to server.</div>",
+        "year": "2012"
+    }
+]
