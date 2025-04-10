@@ -33,7 +33,7 @@ async function getAndroidApps() {
   parentView.style.display = "none";
   
   try {
-    const file = "../json/portfolioAndroidProject.json";
+    const file = "../json/portfolioAndroidApp.json";
     fetch(file)
       .then((response) => response.json())
       .then((androidApps) => {
@@ -112,8 +112,7 @@ async function getActivities() {
 
           // create new div
           const eventElement = document.createElement("div");
-          eventElement.className =
-            "nes-container is-rounded is-dark with-title is-centered";
+          eventElement.className = "nes-container is-rounded is-dark with-title is-centered";
           eventElement.innerHTML = `
               <p class="title">${event.tag}</p>
               <div class="timeline-detail">
