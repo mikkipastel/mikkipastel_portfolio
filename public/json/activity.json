@@ -254,5 +254,186 @@
         "tag": "public speaking",
         "time": "2021-03-08",
         "title": "International Women's Day, PyLadies Bangkok"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/more-questions-from-audience-in-android-developer-meetup-1-0/",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_android_developer_meetup_1.webp?v=1736846200060",
+        "date": "23 Dec 2019",
+        "description": "This is first meetup to join staff role and sprint off this event in 2 weeks. It is so exciting to see Android Developers in this meetup before lockdown by COVID_19.",
+        "tag": "staff",
+        "time": "2019-12-23",
+        "title": "Android Developer Meetup 1.0"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/today-at-apple-with-women-who-code-bangkok-at-apple-iconsiam/",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_wwc_todayatapple.webp?v=1736846716307",
+        "date": "17 Nov 2024",
+        "description": "I join this event on 7 September 2019 at Apple Store, ICONSIAM. Main activity in this event is join Today at Apple session \"App Skills: Making an App Prototype with Keynote\".",
+        "tag": "activity",
+        "time": "2019-09-07",
+        "title": "Today at Apple with Women Who Code Bangkok"
+    },
+    {
+        "button": [
+            {
+                "type": "slide",
+                "url": "https://www.slideshare.net/sanaka504/recommended-material-components-android-bangkok-2019"
+            },
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=2gQXF7Znod8"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2019.webp?v=1736827192130",
+        "date": "7 July 2019",
+        "description": "I am speaker in Android Bangkok 2019 on 7 July 2019 at S31 hotel. My session is \"Recommend Material Components in your app\" which talk about Android Developer have some problem for create UI in application and it is so difficult to talk to designer in your team. This session talk about recommend some Material Component to use it for solve problem about create layout and understand Material Design for talking it with your designer.",
+        "tag": "public speaking",
+        "time": "2019-07-07",
+        "title": "Android Bangkok Conference 2019"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/dialogflow-101/",
+        "button": [
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=xovgKbEZ62A"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_gucode.webp?v=1736827229475",
+        "date": "13 Dec 2018",
+        "description": "I am a guess in GuCode S2 EP.18 Chatbot with DialogFlow which tell about begin how to do chatbot in DialogFlow and integrate with LINE account.",
+        "tag": "public speaking",
+        "time": "2018-12-13",
+        "title": "GuCode S2"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/kotlin-generation/",
+        "button": [
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=id9fenk6NFs"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_code_mania_111.webp?v=1736827210167",
+        "date": "10 June 2018",
+        "description": "I am speaker in Code Mania 111 on 10 June 2018 at Siam University. My session is \"Kotlin Generation\" which said about how to begin and adapt coding with Kotlin in your work for Android Developer",
+        "tag": "public speaking",
+        "time": "2018-06-10",
+        "title": "Code Mania 111"
+    },
+    {
+        "blogUrl": "https://medium.com/fungjai/playing-video-by-exoplayer-b97903be0b33",
+        "button": [
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=IK7Io2-pRvk"
+            },
+            {
+                "type": "github",
+                "url": "https://github.com/mikkipastel/VideoPlanet/tree/develop"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2018.webp?v=1736823900463",
+        "date": "31 Mar 2018",
+        "description": "I am speaker in Android Bangkok 2018 on 31 March 2018 at Siam Pic-Ganesha. My session is \"ExoPlayer\" which expend about my experience for coding with it and share it from Zero to Hero",
+        "tag": "public speaking",
+        "time": "2018-03-31",
+        "title": "Android Bangkok Conference 2018"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/pwa-with-kotlin-by-android-developer-before-kotlin-meet-up/",
+        "button": [
+            {
+                "type": "demo",
+                "url": "https://onemeal-d909a.firebaseapp.com/"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_kotlin-meetup-1.2.webp?v=1736846513431",
+        "date": "13 Dec 2017",
+        "description": "I am a speaker in Kotlin Meetup 1.2 for \"PWA with Kotlin\" topic on 13 Dec. 2017 at DTAC HOUSE.",
+        "tag": "public speaking",
+        "time": "2017-12-13",
+        "title": "Kotlin Meetup 1.2"
+    },
+    {
+        "blogUrl": "https://mikkipastel.com/facebook-messenger-chatbot-firebase/",
+        "button": [
+            {
+                "type": "demo",
+                "url": "https://m.me/beareateverything"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_firebase_appfest.webp?v=1736827224812",
+        "date": "30 Sep - 1 Oct 2017",
+        "description": "Hackathon with Cloud Function in Firebase on 30 September - 1 October 2017 at AIS D.C. This project is chatbot for random your lunch food in carteen by น้องหมีตัวแตก (BearEatEverything)",
+        "tag": "hackathon",
+        "time": "2017-10-01",
+        "title": "Firebase AppFest Bangkok"
+    },
+    {
+        "blogUrl": "https://mikkipastel.com/hackathon-pwa-online-hackathon/",
+        "button": [
+            {
+                "type": "demo",
+                "url": "https://owlvegrammo.firebaseapp.com/"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_pwa.webp?v=1736846633543",
+        "date": "23 - 25 June 2017",
+        "description": "Online hackathon to build PWA with firebase hosting and push code in github by Web Developer Thailand at 23-25 June 2017 and got 1 in 200 first to submission finished web application.",
+        "tag": "hackathon",
+        "time": "2017-06-25",
+        "title": "PWA online hackathon"
+    },
+    {
+        "blogUrl": "https://mikkipastel.com/bangkok-urban-hack-day/",
+        "button": [
+            {
+                "type": "demo",
+                "url": "https://loongsukhum-7a4a9.firebaseapp.com/"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_bukd.webp?v=1736827206714",
+        "date": "29 - 30 Sep 2016",
+        "description": "Loong sukhum project about bus route, bus number, and bus time with Facebook chatbot and Android application.",
+        "tag": "hackathon",
+        "time": "2016-11-30",
+        "title": "Bangkok Urban Hack Day"
+    },
+    {
+        "blogUrl": "https://mikkipastel.com/nia-dei-14-final-exam/",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_ime24.webp?v=1736846400373",
+        "date": "27 Nov 2016",
+        "description": "Course from NIA (National Innovation Agency) and DEI (Distance Education Institute) about innovation management. I get knowledge from commulity friendship such as business model canvas, presentation, digital marketing, and other.  Graduted at 27 Nov. 2016",
+        "tag": "activity",
+        "time": "2016-11-23",
+        "title": "Graduate \"Innovation Management for Executives (IMEs)\" course #14"
+    },
+    {
+        "blogUrl": "https://mikkipastel.com/walkathon-nia/",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_walkathon.webp?v=1736846766531",
+        "date": "7 Oct. 2016",
+        "description": "Innovation hackathon activity by NIA. Explore Yothi distric for solve problem in hospital with medical tech. Team purpose hand washing machine, Handy smart wash, to solve healthcare provider problem with no more time to clean them hand minutely.",
+        "tag": "activity",
+        "time": "2016-10-07",
+        "title": "Yothi Innovation District Walkathon"
+    },
+    {
+        "blogUrl": "",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_sia.webp?v=1736846690201",
+        "date": "2015",
+        "description": "My team, BKroute, have won the final round award of 20,000 bath from BKroute application.",
+        "tag": "activity",
+        "time": "2015-09-15",
+        "title": "Samart Innovation Award 2015"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/mobile-application-mega-2014/",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_mega2014.webp?v=1736846557013",
+        "date": "28 Nov 2014",
+        "description": "purpose application about transportation android application name BKroute in contest",
+        "tag": "activity",
+        "time": "2014-11-28",
+        "title": "MEGA 2014"
     }
 ]
