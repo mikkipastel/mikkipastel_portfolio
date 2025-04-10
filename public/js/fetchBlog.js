@@ -32,6 +32,6 @@ async function fetchLastedBlog() {
     } catch (error) {
       console.error("Error fetching lasted blog list:", error);
     }
-  }
-  fetchLastedBlog();
+}
+fetchLastedBlog();
     
