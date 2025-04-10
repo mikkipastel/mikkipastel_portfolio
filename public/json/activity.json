@@ -1,0 +1,92 @@
+[
+    {
+      "blogUrl": "https://www.mikkipastel.com/technologista-international-womens-day-bangkok-2025/",
+      "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/Technologista_2025.webp?v=1743517151699",
+      "date": "22 Mar 2025",
+      "description": "Many people are interested in becoming a developer or tech content creator but often face the problem of not knowing where to start, or sometimes they start but feel discouraged. This session will answer these questions. With over 10 years of content creation experience, along with experiences from attending various Content Creator camps and advice from many experienced people, the speaker will share the correct approach to getting started, what you need to learn, what you need to do, including important things to consider to be able to create content sustainably and for a long time.",
+      "tag": "public speaking",
+      "time": "2025-03-22",
+      "title": "Technologista: International Women’s Day Bangkok 2025"
+    },
+    {
+        "blogUrl": "https://mikkicoding.mikkipastel.com/discord-bot-hands-on/introduction",
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_ncd2024.webp?v=1736846618520",
+        "date": "29 Nov 2024",
+        "description": "First workshop IRL for create your first discord bot, implement to response back to user, and create webhook.",
+        "tag": "public speaking",
+        "time": "2024-11-29",
+        "title": "National Coding Day 2024: Workshop Day"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/create-android-widget-first-time-by-jetpack-glance/",
+        "button": [
+            {
+                "type": "github",
+                "url": "https://github.com/mikkipastel/GasTrackerWidget"
+            },
+            {
+                "type": "slide",
+                "url": "https://docs.google.com/presentation/d/1TWIBvNmBZ2H7ekDVb7MUE2zzGGSkkeE-ceWAIn-qdzo/edit?usp=sharing"
+            },
+            {
+                "type": "demo",
+                "url": "https://www.tiktok.com/@mikkipastel/video/7437503312297086216"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2024.webp?v=1736827196471",
+        "date": "17 Nov 2024",
+        "description": "Represent my site project, gas tracker widget created by Jetpack Glance with Jetpack Compose",
+        "tag": "public speaking",
+        "time": "2024-11-17",
+        "title": "Android Bangkok Conference 2024"
+    },
+    {
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_nativemeetup2.webp?v=1736846592604",
+        "date": "17 Oct 2024",
+        "description": "2nd time for this event for have 1 iOS speaker and 1 Android speaker to knowledge sharing. I am staff on event day to timer and help staff team for register.",
+        "tag": "staff",
+        "time": "2024-10-17",
+        "title": "Mobile Native Meetup #2"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/icreator-camp-2024-final-day/",
+        "button": [
+            {
+                "type": "demo",
+                "url": "https://www.facebook.com/MikkiPastel/posts/975994254532019"
+            },
+            {
+                "type": "demo",
+                "url": "https://www.facebook.com/MikkiPastel/posts/985980153533429"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_icreator_camp_2024.webp?v=1735917172244",
+        "date": "May - June 2024",
+        "description": "First Thailand creator camp by RAiNMAKER and faculty of communication art, Chalalongkorn University. Selected 100 creators to study for 4 weeks to professional creator.",
+        "tag": "creator camp",
+        "time": "2024-06-22",
+        "title": "iCreator Camp 2024"
+    },
+    {
+        "button": [
+            {
+                "type": "information",
+                "url": "https://www.facebook.com/groups/learnwithtruedigitalacademy"
+            }
+        ],
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_community_leader_tda.webp?v=1736824207458",
+        "date": "24 Apr 2024 - 7 Feb 2025",
+        "description": "I am 1 of 5 Community Leader for batch 2 in Learn with True Digital Academy Facebook group. My responsibility is create content and share knowledge in this group.",
+        "tag": "activity",
+        "time": "2024-04-24",
+        "title": "Community Leader of Learn with True Digital Academy Facebook Group."
+    },
+    {
+        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_compos_battle_2024.webp?v=1736827215336",
+        "date": "17 Feb 2024",
+        "description": "It seem like code in the dark but Jetpack Compose. My responsibility are create Github Action file and staff in event day.",
+        "tag": "staff",
+        "time": "2024-02-17",
+        "title": "COMPOSE BATTLE 2024: Compose at first sight"
+    }
+  ]
