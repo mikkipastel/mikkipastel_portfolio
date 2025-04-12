@@ -15,7 +15,7 @@ async function fetchLastedBlog() {
               const item = document.createElement("div");
               item.className = "blog-item";
               item.innerHTML = `<a href="${blog.url}" target="_blank">
-                  <img src="${blog.feature_image}" alt="${blog.title}">
+                  <img src="${blog.feature_image}" alt="">
                   <p>${blog.title}</p>
                 </a>`;
               blogListElement.appendChild(item);
