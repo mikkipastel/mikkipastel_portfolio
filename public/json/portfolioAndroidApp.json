@@ -2,28 +2,28 @@
   {
     "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_gas_tracker.webp?v=1746365739062",
     "appName": "Gas Tracker",
-    "description": "Tired of missing out on Ethereum transactions due to fluctuating gas prices? Gas Tracker is the application and widget designed to help you monitor gas prices on the Ethereum network quickly and conveniently. Whether you're a DeFi trader, NFT user, or simply need to send ETH, Gas Tracker empowers you to make better decisions and save on fees.",
+    "description": "An Android solution featuring an app and Jetpack Glance widget for convenient Ethereum gas price tracking, helping users save on transaction fees. Showcased this development at the Android Bangkok Conference 2024.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.gastracker",
     "year": "2025"
   },
   {
     "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_emoji_soundboard.webp?v=173682255351",
     "appName": "Emoji Soundboard",
-    "description": "Soundboard android application with emoji to remember about sound effect in soundboard.",
+    "description": "Conceived and developed a Soundboard Android application utilizing emojis to visually represent and recall sound effects, as a project for The 5th Stupid Hackathon Thailand.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.soundboard",
     "year": "2021"
   },
   {
     "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_mikki.webp?v=1736822561036",
     "appName": "MikkiPastel",
-    "description": "Redesign app is released in 2016. Show all content from my webblog with MVVM code structure",
+    "description": "Redesigned (released 2016) and revamped my personal blog reader Android app (side project) using current technologies and the MVVM code structure to effectively display all content from my web blog.",
     "url": "https://play.google.com/store/apps/details?id=co.meappdev.mikkipastel&hl=th",
     "year": "2020"
   },
   {
     "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_fildeo.webp?v=1736822558827",
     "appName": "Fildeo",
-    "description": "Add filter to your video and preview with ExoPlayer.",
+    "description": "Enabled users to apply filters to videos and preview the effects in real-time using ExoPlayer.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.fildeo",
     "year": "2018"
   },
