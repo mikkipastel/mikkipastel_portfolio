@@ -1,7 +1,7 @@
 [
     {
       "blogUrl": "https://www.mikkipastel.com/technologista-international-womens-day-bangkok-2025/",
-      "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/Technologista_2025.webp?v=1743517151699",
+      "coverUrl": "image/portfolio/activity_technologista_2025.webp",
       "date": "22 Mar 2025",
       "description": "Many people are interested in becoming a developer or tech content creator but often face the problem of not knowing where to start, or sometimes they start but feel discouraged. This session will answer these questions. With over 10 years of content creation experience, along with experiences from attending various Content Creator camps and advice from many experienced people, the speaker will share the correct approach to getting started, what you need to learn, what you need to do, including important things to consider to be able to create content sustainably and for a long time.",
       "tag": "public speaking",
@@ -10,7 +10,7 @@
     },
     {
         "blogUrl": "https://mikkicoding.mikkipastel.com/discord-bot-hands-on/introduction",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_ncd2024.webp?v=1736846618520",
+        "coverUrl": "image/portfolio/activity_ncd2024.webp",
         "date": "29 Nov 2024",
         "description": "First workshop IRL for create your first discord bot, implement to response back to user, and create webhook.",
         "tag": "public speaking",
@@ -33,7 +33,7 @@
                 "url": "https://www.tiktok.com/@mikkipastel/video/7437503312297086216"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2024.webp?v=1736827196471",
+        "coverUrl": "image/portfolio/activity_abc2024.webp",
         "date": "17 Nov 2024",
         "description": "Represent my site project, gas tracker widget created by Jetpack Glance with Jetpack Compose",
         "tag": "public speaking",
@@ -41,7 +41,7 @@
         "title": "Android Bangkok Conference 2024"
     },
     {
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_nativemeetup2.webp?v=1736846592604",
+        "coverUrl": "image/portfolio/activity_nativemeetup2.webp",
         "date": "17 Oct 2024",
         "description": "2nd time for this event for have 1 iOS speaker and 1 Android speaker to knowledge sharing. I am staff on event day to timer and help staff team for register.",
         "tag": "staff",
@@ -60,7 +60,7 @@
                 "url": "https://www.facebook.com/MikkiPastel/posts/985980153533429"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_icreator_camp_2024.webp?v=1735917172244",
+        "coverUrl": "image/portfolio/activity_icreator_camp_2024.webp",
         "date": "May - June 2024",
         "description": "First Thailand creator camp by RAiNMAKER and faculty of communication art, Chalalongkorn University. Selected 100 creators to study for 4 weeks to professional creator.",
         "tag": "creator camp",
@@ -74,7 +74,7 @@
                 "url": "https://www.facebook.com/groups/learnwithtruedigitalacademy"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_community_leader_tda.webp?v=1736824207458",
+        "coverUrl": "image/portfolio/activity_community_leader_tda.webp",
         "date": "24 Apr 2024 - 7 Feb 2025",
         "description": "I am 1 of 5 Community Leader for batch 2 in Learn with True Digital Academy Facebook group. My responsibility is create content and share knowledge in this group.",
         "tag": "activity",
@@ -82,7 +82,7 @@
         "title": "Community Leader of Learn with True Digital Academy Facebook Group."
     },
     {
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_compos_battle_2024.webp?v=1736827215336",
+        "coverUrl": "image/portfolio/activity_compos_battle_2024.webp",
         "date": "17 Feb 2024",
         "description": "It seem like code in the dark but Jetpack Compose. My responsibility are create Github Action file and staff in event day.",
         "tag": "staff",
@@ -97,10 +97,10 @@
             }
         ],
         "carousel": [
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_women_in_tech_power_hour_dinner.webp?v=1736824310839",
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_women_in_tech_power_hour_dinner_02.webp?v=1736864522937"
+            "image/portfolio/activity_women_in_tech_power_hour_dinner.webp",
+            "image/portfolio/activity_women_in_tech_power_hour_dinner_02.webp"
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_women_in_tech_power_hour_dinner.webp?v=1736824310839",
+        "coverUrl": "image/portfolio/activity_women_in_tech_power_hour_dinner.webp",
         "date": "15 Dec 2023",
         "description": "talk about personal branding from my experience.",
         "tag": "public speaking",
@@ -119,7 +119,7 @@
                 "url": "https://www.facebook.com/watch/100063698149844"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_how_to_do_my_bio_website.webp?v=1736824125060",
+        "coverUrl": "image/portfolio/activity_how_to_do_my_bio_website.webp",
         "date": "24 Dec 2022",
         "description": "Facebook Live with DigitalX to teach how to do bio website with Glitch.",
         "tag": "public speaking",
@@ -135,10 +135,10 @@
             }
         ],
         "carousel": [
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_dev_mountain_tech_festival_2.webp?v=1736827220367",
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_dev_mountain_tech_festival_2_02.webp?v=1736864517081"
+            "image/portfolio/activity_dev_mountain_tech_festival_2.webp",
+            "image/portfolio/activity_dev_mountain_tech_festival_2_02.webp"
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_dev_mountain_tech_festival_2.webp?v=1736827220367",
+        "coverUrl": "image/portfolio/activity_dev_mountain_tech_festival_2.webp",
         "date": "13 Nov 2022",
         "description": "This is my first-time public speaking in Chiang Mai and my session is \"What’s about NFT for newbie\" to talk about my research on How to do my NFT collection.",
         "tag": "public speaking",
@@ -147,7 +147,7 @@
     },
     {
         "blogUrl": "",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_skooldio_creator_square.webp?v=1736824170243",
+        "coverUrl": "image/portfolio/activity_skooldio_creator_square.webp",
         "date": "Oct 2022",
         "description": "Camp for tech content creator by Skooldio.",
         "tag": "creator camp",
@@ -157,10 +157,10 @@
     {
         "blogUrl": "https://www.mikkipastel.com/level-up-with-android-library-for-android-developer-android-bangkok-2022/",
         "carousel": [
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2022.webp?v=1736824056311",
-            "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2022_02.webp?v=1736864509301"
+            "image/portfolio/activity_abc2022.webp",
+            "image/portfolio/activity_abc2022_02.webp"
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2022.webp?v=1736824056311",
+        "coverUrl": "image/portfolio/activity_abc2022.webp",
         "date": "30 Sep 2022",
         "description": "I came back for a speaker in Android Bangkok again with \"Level up with Android Library for Android Developer\" session.",
         "tag": "public speaking",
@@ -169,7 +169,7 @@
     },
     {
         "blogUrl": "https://medium.com/android-developer-meetup-th/diary-of-staff-at-android-developer-meetup-08-2022-by-mikkipastel-b22d6f89b50",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity-android-meetup-0822.webp?v=1736064589334",
+        "coverUrl": "image/portfolio/activity-android-meetup-0822.webp",
         "date": "20 Aug 2022",
         "description": "I am a staff for Android Developer Meetup again in 2022 with . My responsible are PR event and registrator.",
         "tag": "staff",
@@ -177,7 +177,7 @@
         "title": "Android Developer Meetup 08.2022"
     },
     {
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_monthira_WDA.webp?v=1736846835049",
+        "coverUrl": "image/portfolio/activity_monthira_WDA.webp",
         "date": "Mar - Apr 2022",
         "description": "Participate to Exclusive Online Training Program and 1-1 Mentorship with Googler for 4 weeks.",
         "tag": "activity",
@@ -186,7 +186,7 @@
     },
     {
         "blogUrl": "https://www.mikkipastel.com/personal-knowledge-management-clazy-cafe/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_bkk_softskill_for_tech_03.webp?v=1736827201364",
+        "coverUrl": "image/portfolio/activity_bkk_softskill_for_tech_03.webp",
         "date": "19 Nov 2021",
         "description": "Speaker for sharing soft skill \"Easy PKM for developer\" in Clubhouse room.",
         "tag": "public speaking",
@@ -201,7 +201,7 @@
                 "url": "https://www.thoughtworks.com/th_event_hacktoberfest_2021"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_hacktoberfest_2021.webp?v=1736827231618",
+        "coverUrl": "image/portfolio/activity_hacktoberfest_2021.webp",
         "date": "30 Oct 2021",
         "description": "Event partner with Thoughtworks for Hacktoberfest Open Hack Day Bangkok 2021.",
         "tag": "activity",
@@ -224,7 +224,7 @@
                 "url": "https://stupid.hackathon.in.th/5/"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_sth5.webp?v=1736823992504",
+        "coverUrl": "image/portfolio/activity_sth5.webp",
         "date": "26 Jul - 1 Aug 2021",
         "description": "I join this event for create creative application from idea such as Emoji Soundboard, soundboard android application with emoji to remember about sound effect in soundboard, and Lilycatbot, cat character chatbot.",
         "tag": "hackathon",
@@ -233,7 +233,7 @@
     },
     {
         "blogUrl": "https://www.mikkipastel.com/final-day-and-review-tmrw-creators-camp-2021/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_tmrw_creators_camp_2021.webp?v=1736824095846",
+        "coverUrl": "image/portfolio/activity_tmrw_creators_camp_2021.webp",
         "date": "May 2021",
         "description": "I am 1 of 100 content creators selected to participate in this event which instructed by Thailand Professional Creators in Storytelling, Creative Content, Video Production and Live Streaming in May 2021",
         "tag": "creator camp",
@@ -248,7 +248,7 @@
                 "url": "https://youtu.be/pP4axN4cI4A?t=4736"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_pyladies_bangkok.webp?v=1736846651452",
+        "coverUrl": "image/portfolio/activity_pyladies_bangkok.webp",
         "date": "8 Mar 2021",
         "description": "I am speaker in International Women's Day, PyLadied Bangkok online event on 8 March 2021 which topic \"Modern Software Developer with Modular Architecture\" and create animation with Procreate to help explain about this.",
         "tag": "public speaking",
@@ -257,7 +257,7 @@
     },
     {
         "blogUrl": "https://www.mikkipastel.com/more-questions-from-audience-in-android-developer-meetup-1-0/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_android_developer_meetup_1.webp?v=1736846200060",
+        "coverUrl": "image/portfolio/activity_android_developer_meetup_1.webp",
         "date": "23 Dec 2019",
         "description": "This is first meetup to join staff role and sprint off this event in 2 weeks. It is so exciting to see Android Developers in this meetup before lockdown by COVID_19.",
         "tag": "staff",
@@ -266,7 +266,7 @@
     },
     {
         "blogUrl": "https://www.mikkipastel.com/today-at-apple-with-women-who-code-bangkok-at-apple-iconsiam/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_wwc_todayatapple.webp?v=1736846716307",
+        "coverUrl": "image/portfolio/activity_wwc_todayatapple.webp",
         "date": "17 Nov 2024",
         "description": "I join this event on 7 September 2019 at Apple Store, ICONSIAM. Main activity in this event is join Today at Apple session \"App Skills: Making an App Prototype with Keynote\".",
         "tag": "activity",
@@ -284,7 +284,7 @@
                 "url": "https://www.youtube.com/watch?v=2gQXF7Znod8"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2019.webp?v=1736827192130",
+        "coverUrl": "image/portfolio/activity_abc2019.webp",
         "date": "7 July 2019",
         "description": "I am speaker in Android Bangkok 2019 on 7 July 2019 at S31 hotel. My session is \"Recommend Material Components in your app\" which talk about Android Developer have some problem for create UI in application and it is so difficult to talk to designer in your team. This session talk about recommend some Material Component to use it for solve problem about create layout and understand Material Design for talking it with your designer.",
         "tag": "public speaking",
@@ -299,7 +299,7 @@
                 "url": "https://www.youtube.com/watch?v=xovgKbEZ62A"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_gucode.webp?v=1736827229475",
+        "coverUrl": "image/portfolio/activity_gucode.webp",
         "date": "13 Dec 2018",
         "description": "I am a guess in GuCode S2 EP.18 Chatbot with DialogFlow which tell about begin how to do chatbot in DialogFlow and integrate with LINE account.",
         "tag": "public speaking",
@@ -314,7 +314,7 @@
                 "url": "https://www.youtube.com/watch?v=id9fenk6NFs"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_code_mania_111.webp?v=1736827210167",
+        "coverUrl": "image/portfolio/activity_code_mania_111.webp",
         "date": "10 June 2018",
         "description": "I am speaker in Code Mania 111 on 10 June 2018 at Siam University. My session is \"Kotlin Generation\" which said about how to begin and adapt coding with Kotlin in your work for Android Developer",
         "tag": "public speaking",
@@ -333,7 +333,7 @@
                 "url": "https://github.com/mikkipastel/VideoPlanet/tree/develop"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_abc2018.webp?v=1736823900463",
+        "coverUrl": "image/portfolio/activity_abc2018.webp",
         "date": "31 Mar 2018",
         "description": "I am speaker in Android Bangkok 2018 on 31 March 2018 at Siam Pic-Ganesha. My session is \"ExoPlayer\" which expend about my experience for coding with it and share it from Zero to Hero",
         "tag": "public speaking",
@@ -348,7 +348,7 @@
                 "url": "https://onemeal-d909a.firebaseapp.com/"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_kotlin-meetup-1.2.webp?v=1736846513431",
+        "coverUrl": "image/portfolio/activity_kotlin-meetup-1.2.webp",
         "date": "13 Dec 2017",
         "description": "I am a speaker in Kotlin Meetup 1.2 for \"PWA with Kotlin\" topic on 13 Dec. 2017 at DTAC HOUSE.",
         "tag": "public speaking",
@@ -363,7 +363,7 @@
                 "url": "https://m.me/beareateverything"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_firebase_appfest.webp?v=1736827224812",
+        "coverUrl": "image/portfolio/activity_firebase_appfest.webp",
         "date": "30 Sep - 1 Oct 2017",
         "description": "Hackathon with Cloud Function in Firebase on 30 September - 1 October 2017 at AIS D.C. This project is chatbot for random your lunch food in carteen by น้องหมีตัวแตก (BearEatEverything)",
         "tag": "hackathon",
@@ -378,7 +378,7 @@
                 "url": "https://owlvegrammo.firebaseapp.com/"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_pwa.webp?v=1736846633543",
+        "coverUrl": "image/portfolio/activity_pwa.webp",
         "date": "23 - 25 June 2017",
         "description": "Online hackathon to build PWA with firebase hosting and push code in github by Web Developer Thailand at 23-25 June 2017 and got 1 in 200 first to submission finished web application.",
         "tag": "hackathon",
@@ -393,7 +393,7 @@
                 "url": "https://loongsukhum-7a4a9.firebaseapp.com/"
             }
         ],
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_bukd.webp?v=1736827206714",
+        "coverUrl": "image/portfolio/activity_bukd.webp",
         "date": "29 - 30 Sep 2016",
         "description": "Loong sukhum project about bus route, bus number, and bus time with Facebook chatbot and Android application.",
         "tag": "hackathon",
@@ -402,7 +402,7 @@
     },
     {
         "blogUrl": "https://mikkipastel.com/nia-dei-14-final-exam/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_ime24.webp?v=1736846400373",
+        "coverUrl": "image/portfolio/activity_ime24.webp",
         "date": "27 Nov 2016",
         "description": "Course from NIA (National Innovation Agency) and DEI (Distance Education Institute) about innovation management. I get knowledge from commulity friendship such as business model canvas, presentation, digital marketing, and other.  Graduted at 27 Nov. 2016",
         "tag": "activity",
@@ -411,7 +411,7 @@
     },
     {
         "blogUrl": "https://mikkipastel.com/walkathon-nia/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_walkathon.webp?v=1736846766531",
+        "coverUrl": "image/portfolio/activity_walkathon.webp",
         "date": "7 Oct. 2016",
         "description": "Innovation hackathon activity by NIA. Explore Yothi distric for solve problem in hospital with medical tech. Team purpose hand washing machine, Handy smart wash, to solve healthcare provider problem with no more time to clean them hand minutely.",
         "tag": "activity",
@@ -420,7 +420,7 @@
     },
     {
         "blogUrl": "",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_sia.webp?v=1736846690201",
+        "coverUrl": "image/portfolio/activity_sia.webp",
         "date": "2015",
         "description": "My team, BKroute, have won the final round award of 20,000 bath from BKroute application.",
         "tag": "activity",
@@ -429,7 +429,7 @@
     },
     {
         "blogUrl": "https://www.mikkipastel.com/mobile-application-mega-2014/",
-        "coverUrl": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/activity_mega2014.webp?v=1736846557013",
+        "coverUrl": "image/portfolio/activity_mega2014.webp",
         "date": "28 Nov 2014",
         "description": "purpose application about transportation android application name BKroute in contest",
         "tag": "activity",
