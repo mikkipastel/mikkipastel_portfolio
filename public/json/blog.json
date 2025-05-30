@@ -1,29 +1,29 @@
 {
   "posts": [
     {
+      "title": "รู้จัก Power BI ฉบับมือใหม่ เพิ่งเรียนมา ทำตามง่ายแน่นอน",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/05/power-bi-for-beginner.webp",
+      "url": "https://www.mikkipastel.com/power-bi-for-beginner/"
+    },
+    {
+      "title": "มาอัพสกิลกับหลักสูตร AI Skills for Everyone",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/05/microsoft-ai-skills-training-ai-skills-for-everyone-1.webp",
+      "url": "https://www.mikkipastel.com/microsoft-ai-skills-training-ai-skills-for-everyone/"
+    },
+    {
+      "title": "โพยการใช้ git เมื่อทำ side project บน Github",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/05/list-git-cmd-github-00-1.webp",
+      "url": "https://www.mikkipastel.com/list-git-command-for-side-project-in-github/"
+    },
+    {
+      "title": "ทำ feature scan QR code บน Android app อย่างง่าย ด้วย ML Kit",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/05/feature-scan-qr-code-android-app-ml-kit.webp",
+      "url": "https://www.mikkipastel.com/feature-scan-qr-code-android-app-ml-kit/"
+    },
+    {
       "title": "สรุป “Design Tokens ฉบับสามัญชน: ว่าด้วยการจัดการสีด้วย Figma Variable”",
       "feature_image": "https://www.mikkipastel.com/content/images/2025/04/FoF-design-token-1.webp",
       "url": "https://www.mikkipastel.com/friend-of-figma-design-tokens-made-simple-coloring-with-variables-design-tokens/"
-    },
-    {
-      "title": "ทำความเข้าใจ Activity Lifecycle ง่ายนิดเดียว!",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/04/android-activity-3.webp",
-      "url": "https://www.mikkipastel.com/android-activity-lifecycle/"
-    },
-    {
-      "title": "มา sit-in ค่าย iCreator Camp 2025 วันแรก Storytelling & Creativity",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/04/iCreator-camp-2025-week1.webp",
-      "url": "https://www.mikkipastel.com/icreator-camp-2025-week1-storytelling-and-creativity/"
-    },
-    {
-      "title": "3 วันของ DataRockie Mini Bootcamp 2025 เรียนอะไรบ้าง?",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/04/datarockie-mini-bootcamp-2025.webp",
-      "url": "https://www.mikkipastel.com/datarockie-mini-bootcamp-2025/"
-    },
-    {
-      "title": "นั่งอยู่บ้านฟังงาน TUXSA Open house 2025 ได้ความรู้อะไรกลับมาบ้าง",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/04/tuxsa-open-house-online-2025-6.webp",
-      "url": "https://www.mikkipastel.com/tuxsa-open-house-2025/"
     }
   ]
 }
