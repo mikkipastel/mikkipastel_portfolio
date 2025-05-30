@@ -1,55 +1,55 @@
 [
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_bitcoin_odyssey.webp?v=1736822683052",
+      "appIcon": "image/portfolio/web_bitcoin_odyssey.webp",
       "appName": "Bitcoin Odyssey",
       "description": "Bitcoin history website for beginner. Join our mission to make Bitcoin accessible to everyone. We've created an open-source platform where anyone can learn about Bitcoin, regardless of their technical background. By contributing your knowledge, you'll be part of a global community shaping the future of finance. Let's build a brighter future together!",
       "url": "https://mikkipastel.github.io/bitcoin-odyssey/",
       "year": "2024"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_go_to_the_trap.webp?v=1736822686341",
+      "appIcon": "image/portfolio/web_go_to_the_trap.webp",
       "appName": "𝓰𝓸 𝓽𝓸 𝓽𝓱𝓮 𝓽𝓻𝓪𝓹",
       "description": "Sample redirect to YouTube with random trap (in future) with Vercel and React.js.",
       "url": "https://gotothetrap.vercel.app/",
       "year": "2022"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_mikkicoding.webp?v=1736822691660",
+      "appIcon": "image/portfolio/web_mikkicoding.webp",
       "appName": "mikkicoding",
       "description": "Digital garden for tutorial content in Gitbook. This project is migrate from Owlvegrammo.",
       "url": "https://mikkicoding.mikkipastel.com/",
       "year": "2022"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_lilycatbot.webp?v=1736822688596",
+      "appIcon": "image/portfolio/web_lilycatbot.webp",
       "appName": "lilycatbot",
       "description": "Cat character chatbot in LINE OA. This chatbot is random cat word and no answer for send to user and secret feature for pet cat with purrr sound.",
       "url": "https://line.me/R/ti/p/@761lieys",
       "year": "2021"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_babyseal.webp?v=1736822680910",
+      "appIcon": "image/portfolio/web_babyseal.webp",
       "appName": "Babyseal (chow-por-oong-chai)",
       "description": "Chatbot for ramdom lotto number and fortune in LINE chatbot.",
       "url": "https://line.me/R/ti/p/Bm6esAoqwg",
       "year": "2018"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_onemeal.webp?v=1736822693343",
+      "appIcon": "image/portfolio/web_onemeal.webp",
       "appName": "BearEatEverything (web)",
       "description": "This is official website for profile BearEatEverything. This website is fortune mama to random what’s thing to eat with instance noodle ;)",
       "url": "https://onemeal-d909a.firebaseapp.com/",
       "year": "2017"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_onemeal.webp?v=1736822693343",
+      "appIcon": "image/portfolio/web_onemeal.webp",
       "appName": "BearEatEverything (chatbot)",
       "description": "Chatbot for ramdom your lunch food in Facebook Messenger and LINE :)",
       "url": "https://line.me/R/ti/p/1YKmYHmjSU",
       "year": "2017"
     },
     {
-      "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/web_owlvegrammo.webp?v=1736822696396",
+      "appIcon": "image/portfolio/web_owlvegrammo.webp",
       "appName": "Owlvegrammo (archive)",
       "description": "This web application is in PWA online hackathon which flash card for learning programming language. This web can use offline mode and support manifest.",
       "url": "https://owlvegrammo.firebaseapp.com/",

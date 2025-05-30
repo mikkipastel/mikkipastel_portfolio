@@ -1,48 +1,48 @@
 [
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_gas_tracker.webp?v=1746365739062",
+    "appIcon": "image/portfolio/app_gas_tracker.webp",
     "appName": "Gas Tracker",
     "description": "An Android solution featuring an app and Jetpack Glance widget for convenient Ethereum gas price tracking, helping users save on transaction fees. Showcased this development at the Android Bangkok Conference 2024.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.gastracker",
     "year": "2025"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_emoji_soundboard.webp?v=173682255351",
+    "appIcon": "image/portfolio/app_publish_emoji_soundboard.webp",
     "appName": "Emoji Soundboard",
     "description": "Conceived and developed a Soundboard Android application utilizing emojis to visually represent and recall sound effects, as a project for The 5th Stupid Hackathon Thailand.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.soundboard",
     "year": "2021"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_mikki.webp?v=1736822561036",
+    "appIcon": "image/portfolio/app_publish_mikki.webp",
     "appName": "MikkiPastel",
     "description": "Redesigned (released 2016) and revamped my personal blog reader Android app (side project) using current technologies and the MVVM code structure to effectively display all content from my web blog.",
     "url": "https://play.google.com/store/apps/details?id=co.meappdev.mikkipastel&hl=th",
     "year": "2020"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_fildeo.webp?v=1736822558827",
+    "appIcon": "image/portfolio/app_publish_fildeo.webp",
     "appName": "Fildeo",
     "description": "Enabled users to apply filters to videos and preview the effects in real-time using ExoPlayer.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.fildeo",
     "year": "2018"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_chicktoys.webp?v=1736822550696",
+    "appIcon": "image/portfolio/app_publish_chicktoys.webp",
     "appName": "Chicktoys",
     "description": "Squeaky rubber chicken toy android application.",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.chicktoys",
     "year": "2017"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_sukhum.webp?v=1736822564149",
+    "appIcon": "image/portfolio/app_publish_sukhum.webp",
     "appName": "Loong Sukhum",
     "description": "Transportation application, search from bus number and bus stop name, nearby bus stop, and send feedback to Loong Sukhum team",
     "url": "https://play.google.com/store/apps/details?id=com.mikkipastel.buslinebysukhum",
     "year": "2016"
   },
   {
-    "appIcon": "https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/app_publish_feelfit.webp?v=1736822557114",
+    "appIcon": "image/portfolio/app_publish_feelfit.webp",
     "appName": "feelfit",
     "description": "Running and walking to burn calories in android application, work with ThaiHealth and mindidea.",
     "url": "https://play.google.com/store/apps/details?id=com.mindidea.feelfit",
