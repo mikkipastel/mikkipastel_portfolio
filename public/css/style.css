@@ -7,7 +7,7 @@ body {
 #cover {
   text-align: center;
   background-color: #003144;
-  background-image: url("https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/cover_wallpaper.png?v=1735283062437");
+  background-image: url("image/portfolio/cover_wallpaper.png");
   position: relative;
   height: 100vh;
   display: flex;
@@ -90,7 +90,7 @@ body {
 
 /* Blog Item */
 #lasted-blog {
-  background-image: url("https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/lasted-blog-background.webp?v=1744442800108");
+  background-image: url("image/portfolio/lasted-blog-background.webp?v=1744442800108");
   display: none;
 }
 
@@ -243,7 +243,7 @@ body {
 
 /* Timeline */
 #activity-timeline {
-  background-image: url("https://cdn.glitch.global/9737b693-af83-452d-a9df-854f39d63332/timeline_wallpaper.webp?v=1735393257809");
+  background-image: url("image/portfolio/timeline_wallpaper.webp");
   position: relative;
   margin: 0;
 }
