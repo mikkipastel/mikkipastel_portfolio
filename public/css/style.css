@@ -7,7 +7,7 @@ body {
 #cover {
   text-align: center;
   background-color: #003144;
-  background-image: url("image/portfolio/cover_wallpaper.png");
+  background-image: url("/image/background/cover.png");
   position: relative;
   height: 100vh;
   display: flex;
@@ -90,7 +90,7 @@ body {
 
 /* Blog Item */
 #lasted-blog {
-  background-image: url("image/portfolio/lasted-blog-background.webp?v=1744442800108");
+  background-image: url("/image/background/lasted-blog.webp");
   display: none;
 }
 
@@ -243,7 +243,7 @@ body {
 
 /* Timeline */
 #activity-timeline {
-  background-image: url("image/portfolio/timeline_wallpaper.webp");
+  background-image: url("/image/background/timeline.webp");
   position: relative;
   margin: 0;
 }

@@ -233,15 +233,5 @@
     <script src="./js/fetchBlog.js"></script>
     <script src="./js/sound.js"></script>
     <script src="./js/portfolio.js"></script>
-
-    <!-- service worker for PWA -->
-    <script>
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-      .register('/service-worker.js')
-      .then(function() { console.log("Service Worker Registered"); });
-    }
-    </script>
-  
   </body>
 </html>
