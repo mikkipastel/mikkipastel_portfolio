@@ -14,31 +14,17 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-#cover > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
 #cover #name {
-  font-size: 2.5rem;
+  font-size: 48px;
   font-family: "Press Start 2P", system-ui;
   color: white;
 }
 #cover #description {
-  font-size: 1.5rem;
+  font-size: 32px;
   font-family: "Handjet", serif;
   color: white;
 }
 
-#moon-earth {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin: 0;
-}
 #moon-earth {
   margin-left: 48px;
   margin-right: 48px;
@@ -49,12 +35,6 @@ body {
   float: left;
   position: absolute;
   left: 24px;
-}
-#earth, #moon {
-  width: 64px;
-  height: auto;
-  max-width: 15vw;
-  transition: width 0.3s;
 }
 #earth {
   width: 200px;
