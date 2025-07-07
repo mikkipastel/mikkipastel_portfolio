@@ -1,24 +1,44 @@
 const moonElement = document.getElementById('moon');
-const moonWidth = moonElement.offsetWidth;
-
 const rocketElement = document.getElementById('rocket');
-const rocketWidth = rocketElement.offsetWidth;
-var maxTranslateX = window.innerWidth - rocketWidth - moonWidth;
 
-document.addEventListener('scroll', function () {
+function updateMaxTranslateX() {
+  const moonWidth = moonElement.offsetWidth;
+  const rocketWidth = rocketElement.offsetWidth;
+  return window.innerWidth - rocketWidth - moonWidth;
+}
+
+let maxTranslateX = updateMaxTranslateX();
+
+function getCoverBottom() {
+  const cover = document.getElementById('cover');
+  const rect = cover.getBoundingClientRect();
+  return rect.top + window.scrollY + cover.offsetHeight;
+}
+
+function updateRocketPosition() {
   const scrollY = window.scrollY;
-  const maxScroll = document.body.scrollHeight - window.innerHeight;
-  const progress = Math.min(scrollY / maxScroll, 1);
-  // เส้นโค้งแบบ parabolic
-  const translateX = progress * maxTranslateX;
-  const curveHeight = 120; // ปรับความสูงของโค้งได้
-  const translateY = -Math.sin(progress * Math.PI) * curveHeight;
-  rocketElement.style.transform = `translateX(${translateX}px) translateY(${translateY}px)`;
-  // ป้องกันไม่ให้เกิดพื้นที่ขาวด้านขวา
+  const coverBottom = getCoverBottom();
+  if (scrollY < coverBottom) {
+    // ก่อนถึง coverBottom rocket อยู่ที่จุดเริ่มต้น
+    rocketElement.style.transform = 'translateX(0px) translateY(0px)';
+  } else {
+    // หลัง coverBottom rocket เคลื่อนที่เป็นเส้นโค้ง
+    const maxScroll = document.body.scrollHeight - window.innerHeight - coverBottom;
+    const progress = Math.min((scrollY - coverBottom) / maxScroll, 1);
+    const translateX = progress * maxTranslateX;
+    const curveHeight = 120;
+    const translateY = -Math.sin(progress * Math.PI) * curveHeight;
+    rocketElement.style.transform = `translateX(${translateX}px) translateY(${translateY}px)`;
+  }
   document.body.style.overflowX = 'hidden';
-});
+}
+
+document.addEventListener('scroll', updateRocketPosition);
 
 window.addEventListener('resize', function () {
-  const rocketWidth = rocketElement.offsetWidth;
-  maxTranslateX = window.innerWidth - rocketWidth - moonWidth;
+  maxTranslateX = updateMaxTranslateX();
+  updateRocketPosition();
 });
+
+// initial position
+updateRocketPosition();
