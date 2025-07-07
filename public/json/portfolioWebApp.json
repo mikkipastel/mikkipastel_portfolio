@@ -7,6 +7,13 @@
       "year": "2024"
     },
     {
+      "appIcon": "image/portfolio/web_chinda_calculator.webp",
+      "appName": "Chinda Calculator",
+      "description": "A Progressive Web App (PWA) calculator specifically designed for calculating bills at Chinda Mala Suki",
+      "url": "hhttps://mikkipastel.github.io/chinda/",
+      "year": "2023"
+    },
+    {
       "appIcon": "image/portfolio/web_go_to_the_trap.webp",
       "appName": "𝓰𝓸 𝓽𝓸 𝓽𝓱𝓮 𝓽𝓻𝓪𝓹",
       "description": "Sample redirect to YouTube with random trap (in future) with Vercel and React.js.",
