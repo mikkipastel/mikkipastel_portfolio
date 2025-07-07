@@ -18,12 +18,12 @@ function getCoverBottom() {
 function updateRocketPosition() {
   const scrollY = window.scrollY;
   const coverBottom = getCoverBottom();
+  const maxScroll = Math.max(document.body.scrollHeight - window.innerHeight - coverBottom, 1); // ป้องกันหาร 0
   if (scrollY < coverBottom) {
     // ก่อนถึง coverBottom rocket อยู่ที่จุดเริ่มต้น
     rocketElement.style.transform = 'translateX(0px) translateY(0px)';
   } else {
     // หลัง coverBottom rocket เคลื่อนที่เป็นเส้นโค้ง
-    const maxScroll = document.body.scrollHeight - window.innerHeight - coverBottom;
     const progress = Math.min((scrollY - coverBottom) / maxScroll, 1);
     const translateX = progress * maxTranslateX;
     const curveHeight = 120;
