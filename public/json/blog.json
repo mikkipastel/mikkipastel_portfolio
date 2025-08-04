@@ -1,29 +1,29 @@
 {
   "posts": [
     {
+      "title": "อัพเดตข่าวสารชาวเดฟในปี AI ที่งาน Google IO Extended 2025",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/08/ioextended-25.jpg",
+      "url": "https://www.mikkipastel.com/google-io-extended-bangkok-2025/"
+    },
+    {
+      "title": "ทำความรู้จัก Solana 101 แบบเดฟ ๆ",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/solana-101.webp",
+      "url": "https://www.mikkipastel.com/solana-101-by-developer/"
+    },
+    {
+      "title": "รีวิว Github Copilot Business จากผู้ใช้ทำงานจริง!",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/review-github-copilot-3.webp",
+      "url": "https://www.mikkipastel.com/review-github-copilot-business/"
+    },
+    {
+      "title": "รวมเครื่องมือ และโปรแกรม ที่ developer ใช้ทำงาน",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/dev-tool-1.webp",
+      "url": "https://www.mikkipastel.com/what-about-tool-program-for-developer-work/"
+    },
+    {
       "title": "เอาเว็บขึ้น Github Pages ยังไง? ฉบับมีโพย ทำง่ายแน่นอน",
       "feature_image": "https://www.mikkipastel.com/content/images/2025/07/github-pages.webp",
       "url": "https://www.mikkipastel.com/how-to-setup-github-pages/"
-    },
-    {
-      "title": "สองวัน Thai Creator for Real Business Workshop สร้างธุรกิจยังไงดี?",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/06/Thai-Creator-for-Real-Business-Workshop.webp",
-      "url": "https://www.mikkipastel.com/thai-creator-for-real-business-workshop/"
-    },
-    {
-      "title": "สร้าง AI agent ด้วย Microsoft Azure Foundry กัน",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/06/microsoft-azure-foundry-1.webp",
-      "url": "https://www.mikkipastel.com/develop-ai-agents-on-azure/"
-    },
-    {
-      "title": "อยากทำเว็บง่าย ๆ ไม่ต้องเขียนเองล่ะ ใช้ GitHub Copilot เขียนให้",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/06/github-copilot-agent-mode.webp",
-      "url": "https://www.mikkipastel.com/building-applications-with-github-copilot-agent-mode/"
-    },
-    {
-      "title": "รู้จัก Power BI ฉบับมือใหม่ เพิ่งเรียนมา ทำตามง่ายแน่นอน",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/05/power-bi-for-beginner.webp",
-      "url": "https://www.mikkipastel.com/power-bi-for-beginner/"
     }
   ]
 }

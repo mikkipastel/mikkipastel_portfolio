@@ -10,7 +10,14 @@
       "appIcon": "image/portfolio/web_chinda_calculator.webp",
       "appName": "Chinda Calculator",
       "description": "A Progressive Web App (PWA) calculator specifically designed for calculating bills at Chinda Mala Suki",
-      "url": "hhttps://mikkipastel.github.io/chinda/",
+      "url": "https://mikkipastel.github.io/chinda/",
+      "year": "2023"
+    },
+    {
+      "appIcon": "image/portfolio/web_position_sizing.webp",
+      "appName": "Position Sizing",
+      "description": "A Progressive Web App (PWA) cCalculator for trade cryptocurrency future, formular from CryptoTeller",
+      "url": "https://mikkipastel.github.io/position-sizing/",
       "year": "2023"
     },
     {
