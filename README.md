@@ -62,6 +62,11 @@ firebase deploy --only functions:FUNCTION_NAME
 cd public
 ```
 
+- deploy emulator suite, open port 5000
+```
+firebase emulators:start --only hosting
+```
+
 - deploy preview
 ```
 firebase hosting:channel:deploy CHANNEL_ID
