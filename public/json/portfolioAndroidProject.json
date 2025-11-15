@@ -16,7 +16,7 @@
     {
         "appIcon": "image/portfolio/app_project_mymotion.webp",
         "appName": "MyMotion",
-        "description": "MyMotion",
+        "description": "Stop motion android application project in Mobile Developer subject.",
         "html": "<div style=\"display: flex;flex-direction: column;align-items: center;width: 100%;\"><h1>MyMotion</h1><iframe allowfullscreen class=center-block frameborder=1 height=485 mozallowfullscreen=true src=\"https://docs.google.com/presentation/d/1ENSchuZ8435n3r5pgPLkzXKfsFtIiOiWhcPDB-uRQrw/embed?start=false&loop=false&delayms=3000\"webkitallowfullscreen=true width=595></iframe><br><p class=lead>Stop motion android application project in Mobile Developer subject.</div>",
         "year": "2012"
     },

@@ -1,29 +1,29 @@
 {
   "posts": [
     {
-      "title": "อัพเดตข่าวสารชาวเดฟในปี AI ที่งาน Google IO Extended 2025",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/08/ioextended-25.jpg",
-      "url": "https://www.mikkipastel.com/google-io-extended-bangkok-2025/"
+      "title": "ใช้ Google AI Studio เสกเว็บง่าย ๆ พร้อมขึ้นเว็บได้แบบฟรี ๆ",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/11/google-ai-studio--1-.webp",
+      "url": "https://www.mikkipastel.com/website-vide-coding-from-google-ai-studio/"
     },
     {
-      "title": "ทำความรู้จัก Solana 101 แบบเดฟ ๆ",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/solana-101.webp",
-      "url": "https://www.mikkipastel.com/solana-101-by-developer/"
+      "title": "ทริคการใช้งาน Camera ใน Android Emulator ที่คุณไม่เคยรู้มาก่อน",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/10/camera-android-emulator--1-.webp",
+      "url": "https://www.mikkipastel.com/tips-for-camera-in-android-emulator/"
     },
     {
-      "title": "รีวิว Github Copilot Business จากผู้ใช้ทำงานจริง!",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/review-github-copilot-3.webp",
-      "url": "https://www.mikkipastel.com/review-github-copilot-business/"
+      "title": "อัพเดตเรื่อง mobile dev ที่งาน Mobile Native Thailand Meetup #3",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/11/Mobile-Native-Thailand-Meetup--3-1.webp",
+      "url": "https://www.mikkipastel.com/mobile-native-thailand-meetup-3/"
     },
     {
-      "title": "รวมเครื่องมือ และโปรแกรม ที่ developer ใช้ทำงาน",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/dev-tool-1.webp",
-      "url": "https://www.mikkipastel.com/what-about-tool-program-for-developer-work/"
+      "title": "ทำอะไรบ้างในงาน Bitkub Submit 2025",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/10/bitkub-summit-2025-4.webp",
+      "url": "https://www.mikkipastel.com/bitkub-summit-2025/"
     },
     {
-      "title": "เอาเว็บขึ้น Github Pages ยังไง? ฉบับมีโพย ทำง่ายแน่นอน",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/07/github-pages.webp",
-      "url": "https://www.mikkipastel.com/how-to-setup-github-pages/"
+      "title": "มาอัพเดตการใช้งาน Jetpack Compose ในปี 2025 กัน",
+      "feature_image": "https://www.mikkipastel.com/content/images/2025/09/mobile-technical-meetup-compose-at-scale.webp",
+      "url": "https://www.mikkipastel.com/mobile-technical-meetup-compose-at-scale-seven-peaks/"
     }
   ]
 }
