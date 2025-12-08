@@ -1,12 +1,22 @@
 [
     {
-      "blogUrl": "https://www.mikkipastel.com/mobile-native-thailand-meetup-3/",
-      "coverUrl": "image/portfolio/activity_mobile_native_meetup_3.webp",
-      "date": "1 Nov 2025",
-      "description": "Sharing my experience for contribute side project with Bitcoiner developer by Compose Multiplatform in topic.",
-      "tag": "public speaking",
-      "time": "2025-11-01",
-      "title": "Mobile Native Thailand Meetup #3"
+        "blogUrl": "https://www.mikkipastel.com/mobile-native-thailand-meetup-3/",
+        "button": [
+            {
+                "type": "github",
+                "url": "https://github.com/SiamDevTeam/ZapPOS"
+            },
+            {
+                "type": "slide",
+                "url": "https://docs.google.com/presentation/d/1MYz_BM-ZU-lNCh_VRzWP9g8nYGNk-P6jTOHDqlJW1N8/edit?usp=sharing"
+            }
+        ],
+        "coverUrl": "image/portfolio/activity_mobile_native_meetup_3.webp",
+        "date": "1 Nov 2025",
+        "description": "Sharing my experience for contribute side project with Bitcoiner developer by Compose Multiplatform in topic.",
+        "tag": "public speaking",
+        "time": "2025-11-01",
+        "title": "Mobile Native Thailand Meetup #3"
     },
     {
         "blogUrl": "https://www.mikkipastel.com/thai-creator-for-real-business-workshop/",
@@ -18,13 +28,19 @@
         "title": "Thai Creator for Real Business Workshop"
     },
     {
-      "blogUrl": "https://www.mikkipastel.com/technologista-international-womens-day-bangkok-2025/",
-      "coverUrl": "image/portfolio/activity_technologista_2025.webp",
-      "date": "22 Mar 2025",
-      "description": "Many people are interested in becoming a developer or tech content creator but often face the problem of not knowing where to start, or sometimes they start but feel discouraged. This session will answer these questions. With over 10 years of content creation experience, along with experiences from attending various Content Creator camps and advice from many experienced people, the speaker will share the correct approach to getting started, what you need to learn, what you need to do, including important things to consider to be able to create content sustainably and for a long time.",
-      "tag": "public speaking",
-      "time": "2025-03-22",
-      "title": "Technologista: International Women’s Day Bangkok 2025"
+        "blogUrl": "https://www.mikkipastel.com/technologista-international-womens-day-bangkok-2025/",
+        "button": [
+            {
+                "type": "slide",
+                "url": "https://www.canva.com/design/DAGhnuSUQAg/t_Mm8-LAaUcboPkOYC9xTA/edit"
+            }
+        ],
+        "coverUrl": "image/portfolio/activity_technologista_2025.webp",
+        "date": "22 Mar 2025",
+        "description": "Many people are interested in becoming a developer or tech content creator but often face the problem of not knowing where to start, or sometimes they start but feel discouraged. This session will answer these questions. With over 10 years of content creation experience, along with experiences from attending various Content Creator camps and advice from many experienced people, the speaker will share the correct approach to getting started, what you need to learn, what you need to do, including important things to consider to be able to create content sustainably and for a long time.",
+        "tag": "public speaking",
+        "time": "2025-03-22",
+        "title": "Technologista: International Women’s Day Bangkok 2025"
     },
     {
         "blogUrl": "https://mikkicoding.mikkipastel.com/discord-bot-hands-on/introduction",
