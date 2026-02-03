@@ -1,5 +1,24 @@
 [
     {
+        "blogUrl": "https://www.mikkipastel.com/national-coding-day-2026/",
+        "button": [
+            {
+                "type": "slide",
+                "url": "https://docs.google.com/presentation/d/1oyHMA6OpozEV82Gvvk7fpoZ9qpd-dTBniPcfJVYIu_E/edit"
+            },
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=7hbUcJunvV4&list=PLxIUSORh0EQPUjiy_NIjTckdscNem2pQk&index=6&pp=iAQB0gcJCZEKAYcqIYzv"
+            }
+        ],
+        "coverUrl": "image/portfolio/activity_national_coding_day_2026.webp",
+        "date": "24 Jan 2026",
+        "description": "AI is now essential for professional productivity. This session is a practical sharing of real-world AI usage for Mobile Developers, focusing primarily on the Android ecosystem.\nWe will explore specific AI tools and compelling use cases that can immediately boost your coding efficiency, streamline daily workflows, and enhance your overall development speed.",
+        "tag": "public speaking",
+        "time": "2026-01-24",
+        "title": "National Coding Day 2026"
+    },
+    {
         "blogUrl": "https://www.mikkipastel.com/mobile-native-thailand-meetup-3/",
         "button": [
             {
