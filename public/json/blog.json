@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "title": "เป็นเดฟแล้วต้องยื่นภาษียังไง? ง่ายนิดเดียว",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/tax-101.webp",
+      "url": "https://www.mikkipastel.com/tax-101-for-developer/"
+    },
+    {
+      "title": "สร้าง workflow ง่าย ๆ ผ่าน Google Workspace Studio",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/google-workspace-flow-2.webp",
+      "url": "https://www.mikkipastel.com/create-workflow-google-workspace-studio/"
+    },
+    {
+      "title": "3 ขั้นตอนเอา Jetpack Compose มาใช้ในโปรเจกต์เดิม",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/3-step-to-add-jetpack-compose-to-your-project-1.webp",
+      "url": "https://www.mikkipastel.com/3-step-to-add-jetpack-compose-to-your-android-project/"
+    },
+    {
       "title": "วิวัฒนาการของคอมพิวเตอร์มีกี่ยุคบ้าง? แล้วทำอย่างไรให้คอมคุยกับคนรู้เรื่อง?",
       "feature_image": "https://www.mikkipastel.com/content/images/2026/02/hci-to-ux-ui.webp",
       "url": "https://www.mikkipastel.com/friends-of-figma-bangkok-from-hci-to-ux-ui/"
@@ -9,21 +24,6 @@
       "title": "เมื่อ AI เข้ามา ยังไงงานของเดฟก็ไม่เปลี่ยนไป สรุปจาก National Coding Day 2026",
       "feature_image": "https://www.mikkipastel.com/content/images/2026/01/ncd2026-1.webp",
       "url": "https://www.mikkipastel.com/national-coding-day-2026/"
-    },
-    {
-      "title": "4 ขั้นตอนในการ inspect หน้า WebView ในแอพ Android แบบง่ายมาก ๆ",
-      "feature_image": "https://www.mikkipastel.com/content/images/2026/01/inspect-webview--2-.webp",
-      "url": "https://www.mikkipastel.com/how-to-inspect-webview-in-android-app/"
-    },
-    {
-      "title": "Recap 2025 ปีแห่ง AI และน้องเนยพุงเต่งสุดน่ารัก",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/12/recaap-2025.png",
-      "url": "https://www.mikkipastel.com/recap-2025-ai-year/"
-    },
-    {
-      "title": "รู้ยัง ใช้ NotebookLM บน Gemini ได้แล้วนะ!",
-      "feature_image": "https://www.mikkipastel.com/content/images/2025/12/notebooklm-cover.webp",
-      "url": "https://www.mikkipastel.com/notebooklm-gemini/"
     }
   ]
 }
