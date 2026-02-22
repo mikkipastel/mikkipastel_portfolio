@@ -3,7 +3,6 @@ const audioElement = document.querySelector("audio");
 const toggleSound = document.getElementById("toggle-sound");
 
 audioElement.volume = 0.5;
-audioElement.loop = true;
 
 toggleSound.addEventListener("click", function () {
     if (audioElement.paused == false) {
