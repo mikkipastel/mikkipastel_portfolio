@@ -1,5 +1,27 @@
 [
     {
+        "button": [
+            {
+                "type": "slide",
+                "url": "https://docs.google.com/presentation/d/14g7PYcVbFtZq981dC-cQr-zJxSa13hJL1xWQ481sd9U/edit?usp=sharing"
+            },
+            {
+                "type": "video",
+                "url": "https://www.youtube.com/live/l6DwkvsqpwE?si=0ZGFP21VvzDC7QJT&t=10820"
+            },
+            {
+                "type": "blog",
+                "url": "https://www.mikkipastel.com/guide-for-do-github-profile-to-beautiful/"
+            }
+        ],
+        "coverUrl": "image/portfolio/activity_fossasia_2026.webp",
+        "date": "8 Mar 2026",
+        "description": "A GitHub profile is the front door to your digital identity, but many developers leave it blank. In this session, we will start with the basics of how to create your special repository and design a welcoming introduction to showcase your skills beyond just code, which can attract opportunities. Finally, we will elevate your profile by using GitHub Actions to automate updates, such as syncing your latest blog posts. You will leave with a clear roadmap to turn a static Markdown file into a living portfolio that works for you.",
+        "tag": "public speaking",
+        "time": "2026-03-08",
+        "title": "FOSSASIA Community Day 2026"
+    },
+    {
         "blogUrl": "https://www.mikkipastel.com/national-coding-day-2026/",
         "button": [
             {

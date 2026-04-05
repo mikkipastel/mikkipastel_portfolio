@@ -1,29 +1,29 @@
 {
   "posts": [
     {
+      "title": "แจกโพย! การสร้างผู้ช่วยส่วนตัวง่าย ๆ ด้วย Gemini Gems",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/03/gemini-gems.webp",
+      "url": "https://www.mikkipastel.com/usecase-fortune-teller-google-gemini-gems/"
+    },
+    {
+      "title": "ทำไมตอนเลือกตั้ง 69 บัตรเสียถึงเยอะจัง? ทำความรู้จัก Service Design กัน",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/03/service-design-101-1.webp",
+      "url": "https://www.mikkipastel.com/service-design-101-designing-the-system-behind-the-screen-friend-of-figma/"
+    },
+    {
+      "title": "เข้าสู่โลก internet แบบไม่ถูกเซ็นเซอร์ ด้วย Snowflake",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/03/snowflake--1-.webp",
+      "url": "https://www.mikkipastel.com/runnung-snowflakes-to-hellp-censored-people-fossasia-2026/"
+    },
+    {
+      "title": "มาฟังแรงบันดาลใจกับงาน Samsung Creator Day",
+      "feature_image": "https://www.mikkipastel.com/content/images/2026/03/samsung-creator-day.webp",
+      "url": "https://www.mikkipastel.com/samsung-creator-day-insprired-by-sansung-s26-ultra/"
+    },
+    {
       "title": "เป็นเดฟแล้วต้องยื่นภาษียังไง? ง่ายนิดเดียว",
       "feature_image": "https://www.mikkipastel.com/content/images/2026/02/tax-101.webp",
       "url": "https://www.mikkipastel.com/tax-101-for-developer/"
-    },
-    {
-      "title": "สร้าง workflow ง่าย ๆ ผ่าน Google Workspace Studio",
-      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/google-workspace-flow-2.webp",
-      "url": "https://www.mikkipastel.com/create-workflow-google-workspace-studio/"
-    },
-    {
-      "title": "3 ขั้นตอนเอา Jetpack Compose มาใช้ในโปรเจกต์เดิม",
-      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/3-step-to-add-jetpack-compose-to-your-project-1.webp",
-      "url": "https://www.mikkipastel.com/3-step-to-add-jetpack-compose-to-your-android-project/"
-    },
-    {
-      "title": "วิวัฒนาการของคอมพิวเตอร์มีกี่ยุคบ้าง? แล้วทำอย่างไรให้คอมคุยกับคนรู้เรื่อง?",
-      "feature_image": "https://www.mikkipastel.com/content/images/2026/02/hci-to-ux-ui.webp",
-      "url": "https://www.mikkipastel.com/friends-of-figma-bangkok-from-hci-to-ux-ui/"
-    },
-    {
-      "title": "เมื่อ AI เข้ามา ยังไงงานของเดฟก็ไม่เปลี่ยนไป สรุปจาก National Coding Day 2026",
-      "feature_image": "https://www.mikkipastel.com/content/images/2026/01/ncd2026-1.webp",
-      "url": "https://www.mikkipastel.com/national-coding-day-2026/"
     }
   ]
 }
