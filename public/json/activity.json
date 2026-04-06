@@ -1,5 +1,6 @@
 [
     {
+        "blogUrl": "https://www.mikkipastel.com/guide-for-do-github-profile-to-beautiful/",
         "button": [
             {
                 "type": "slide",
@@ -8,10 +9,6 @@
             {
                 "type": "video",
                 "url": "https://www.youtube.com/live/l6DwkvsqpwE?si=0ZGFP21VvzDC7QJT&t=10820"
-            },
-            {
-                "type": "blog",
-                "url": "https://www.mikkipastel.com/guide-for-do-github-profile-to-beautiful/"
             }
         ],
         "coverUrl": "image/portfolio/activity_fossasia_2026.webp",
