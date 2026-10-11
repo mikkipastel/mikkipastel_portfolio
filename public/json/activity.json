@@ -3,6 +3,21 @@
         "blogUrl": "https://www.mikkipastel.com/guide-for-do-github-profile-to-beautiful/",
         "button": [
             {
+                "type": "Information",
+                "url": "https://www.facebook.com/share/p/1CBJGfAbxd/"
+            }
+        ],
+        "coverUrl": "image/portfolio/activity-girl-in-stem-01.jpg",
+        "date": "21 Aug 2026",
+        "description": "I am a panel list speaker to sharing my experiences and insights on women for Android Developer path to high school students and teachers.",
+        "tag": "public speaking",
+        "time": "2026-08-21",
+        "title": "Women Made: Girl in STEM 2026"
+    },
+    {
+        "blogUrl": "https://www.mikkipastel.com/guide-for-do-github-profile-to-beautiful/",
+        "button": [
+            {
                 "type": "slide",
                 "url": "https://docs.google.com/presentation/d/14g7PYcVbFtZq981dC-cQr-zJxSa13hJL1xWQ481sd9U/edit?usp=sharing"
             },
